@@ -70,12 +70,12 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-![Benedict's GitHub Stats](https://github-readme-stats.vercel.app/api?username=benben000000&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=benben000000&layout=compact&theme=tokyonight&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api?username=benben000000&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Benedict's GitHub Stats" />
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=benben000000&theme=tokyonight&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=benben000000&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=benben000000&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
