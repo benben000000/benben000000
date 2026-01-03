@@ -144,7 +144,7 @@ class BenedictGarcia:
 ### 📦 Complete Project Portfolio
 
 <details open>
-<summary><b>🔽 All Projects (14 repositories)</b></summary>
+<summary><b>🔽 All Projects (13 repositories)</b></summary>
 
 <br>
 
@@ -214,14 +214,9 @@ class BenedictGarcia:
 
 ---
 
-#### 🎄 Creative & Personal Projects
+#### � Creative & Personal Projects
 
-**11. 🎅 [Merry Christmas Wiynji](https://github.com/benben000000/merrychristmaswiynji)**
-> Special holiday project showcasing creative coding and festive web design.
-> 
-> **Tech:** `Web Design` `Creative Coding`
-
-**12. 👨‍💻 [Benedict Garcia Portfolio](https://github.com/benben000000/benedictgarcia)**
+**11. 👨‍💻 [Benedict Garcia Portfolio](https://github.com/benben000000/benedictgarcia)**
 > Personal portfolio website showcasing projects, skills, and professional journey.
 > 
 > **Tech:** `Portfolio` `Web Development`
@@ -236,8 +231,8 @@ class BenedictGarcia:
 | 🏢 HRIS/ERP Systems | 4 | Python, Odoo, PostgreSQL, Flask |
 | 🚀 Full-Stack | 2 | Turborepo, Web Tech |
 | 🖥️ Desktop Apps | 2 | C#, .NET |
-| 🎨 Creative | 2 | Web, Creative |
-| **Total** | **14** | **Multi-Tech Stack** |
+| 🎨 Creative | 1 | Web, Portfolio |
+| **Total** | **13** | **Multi-Tech Stack** |
 
 **Total Lines of Code:** 10,000+  
 **Production-Ready Systems:** 6  
