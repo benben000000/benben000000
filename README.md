@@ -87,7 +87,7 @@ class BenedictGarcia:
 
 <div align="center">
 
-### ⭐ Latest Projects (Pinned)
+### ⭐ Latest HRIS/ERP Projects (Pinned)
 
 <table>
 <tr>
@@ -141,41 +141,107 @@ class BenedictGarcia:
 
 ---
 
-### 📦 All Projects
+### 📦 Complete Project Portfolio
 
-<details>
-<summary><b>🔽 Click to view complete project portfolio (5 projects)</b></summary>
+<details open>
+<summary><b>🔽 All Projects (14 repositories)</b></summary>
 
 <br>
 
-#### 🏆 Production-Ready Applications
+#### 🤖 AI & Productivity Applications
 
-**1. 🏢 [Mini HRIS System](https://github.com/benben000000/mini-hris)** - *December 2025*
+**1. 🧠 [Neuro Focus AI](https://github.com/benben000000/neuro-focus-ai)** | **[Alt Version](https://github.com/benben000000/neurofocusai)**
+> AI-powered focus and productivity enhancement tool leveraging machine learning for cognitive optimization and task management.
+> 
+> **Tech:** `AI/ML` `Python` `Neural Networks`
+
+**2. 💎 [Benlium](https://github.com/benben000000/benlium)**
+> Advanced personal knowledge management system with AI integration for research, note-taking, and idea connections.
+> 
+> **Tech:** `React` `TypeScript` `AI Integration`
+
+**3. 📚 [Akashic Record](https://github.com/benben000000/akashic-record)**
+> Digital knowledge repository and documentation system for storing and organizing technical learnings and resources.
+> 
+> **Tech:** `Markdown` `Documentation` `Knowledge Base`
+
+---
+
+#### 🏢 HRIS/ERP & Business Systems
+
+**4. 🏢 [Mini HRIS System](https://github.com/benben000000/mini-hris)** ⭐
 > Complete employee management system with REST API, automated payroll, attendance tracking, and Docker deployment. Built with Flask, PostgreSQL, and pytest for 85% test coverage.
+> 
+> **Tech:** `Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `pytest`
 
-**2. 🎯 [Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)** - *January 2026*
+**5. 🎯 [Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)** ⭐
 > Extended Odoo HR functionality with certification tracking, performance management, skills database, and custom views. Production-ready module with full security implementation.
+> 
+> **Tech:** `Odoo 17` `Python` `PostgreSQL` `XML` `ORM`
 
-**3. 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)** - *January 2026*
+**6. 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)** ⭐
 > Webhook API for seamless website-to-Odoo CRM integration. Features input validation, rate limiting, API key authentication, and comprehensive error handling.
+> 
+> **Tech:** `Python` `Flask` `Odoo XML-RPC` `Redis` `Docker`
+
+**7. 🎛️ [Operations Command Center SaaS](https://github.com/benben000000/Operations-Command-Center-SaaS)**
+> Enterprise operations management platform for real-time monitoring, analytics, and command center functionalities.
+> 
+> **Tech:** `SaaS` `Real-time Analytics` `Dashboard`
 
 ---
 
-#### 🎓 Learning Projects
+#### 🚀 Full-Stack & Architecture
 
-**4. � HR CLI Tool** - *November 2025*
-> Command-line employee management system demonstrating Python fundamentals, OOP principles, file I/O operations, and JSON data handling. First step in learning backend development.
+**8. 🏗️ [Monorepo Turborepo](https://github.com/benben000000/monorepo-turborepo)**
+> Modern monorepo architecture using Turborepo for efficient multi-package management and build optimization.
 > 
-> **Tech Stack:** `Python` `JSON` `Object-Oriented Programming`
+> **Tech:** `Turborepo` `Monorepo` `TypeScript` `Build Tools`
 
-**5. 🗄️ HR Database Schema** - *November 2025*
-> Normalized PostgreSQL database design for HRIS with 6 tables, relationships, constraints, and sample data. Demonstrates database design principles and SQL proficiency.
+**9. 📱 [WTI](https://github.com/benben000000/WTI)**
+> Web Technologies Implementation project showcasing modern web development practices and frameworks.
 > 
-> **Tech Stack:** `PostgreSQL` `SQL` `Database Design`
+> **Tech:** `Web Technologies` `Modern Stack`
 
 ---
 
-**Total:** 5 Projects | ~5,000+ Lines of Code | 3 Production-Ready Systems
+#### 🖥️ Desktop Applications
+
+**10. 🎨 [Windows Forms App](https://github.com/benben000000/windowsformapp)** | **[v1](https://github.com/benben000000/WinFormsApp1)**
+> Windows desktop applications built with .NET Windows Forms for GUI-based user interactions.
+> 
+> **Tech:** `C#` `.NET` `Windows Forms` `Desktop Development`
+
+---
+
+#### 🎄 Creative & Personal Projects
+
+**11. 🎅 [Merry Christmas Wiynji](https://github.com/benben000000/merrychristmaswiynji)**
+> Special holiday project showcasing creative coding and festive web design.
+> 
+> **Tech:** `Web Design` `Creative Coding`
+
+**12. 👨‍💻 [Benedict Garcia Portfolio](https://github.com/benben000000/benedictgarcia)**
+> Personal portfolio website showcasing projects, skills, and professional journey.
+> 
+> **Tech:** `Portfolio` `Web Development`
+
+---
+
+#### 📊 Project Statistics
+
+| Category | Projects | Primary Tech |
+|----------|----------|--------------|
+| 🤖 AI & Productivity | 3 | Python, AI/ML, TypeScript |
+| 🏢 HRIS/ERP Systems | 4 | Python, Odoo, PostgreSQL, Flask |
+| 🚀 Full-Stack | 2 | Turborepo, Web Tech |
+| 🖥️ Desktop Apps | 2 | C#, .NET |
+| 🎨 Creative | 2 | Web, Creative |
+| **Total** | **14** | **Multi-Tech Stack** |
+
+**Total Lines of Code:** 10,000+  
+**Production-Ready Systems:** 6  
+**Active Development:** Ongoing
 
 </details>
 
