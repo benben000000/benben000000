@@ -33,7 +33,9 @@
 
 ## 🚀 About Me
 
-<img align="right" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
+<table>
+<tr>
+<td width="50%">
 
 **📍 Location:** Balanga City, Bataan, Philippines  
 **🎓 Education:** Associates in Computer Technology  
@@ -42,6 +44,11 @@
 **🎯 Goal:** Secure HRIS/ERP Internship at AWB
 
 ### 💻 What I Do
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500">
+
+</td>
+<td width="50%">
 
 ```typescript
 const benedict = {
@@ -62,6 +69,12 @@ const benedict = {
     challenge: "Building production-ready systems for real-world impact"
 };
 ```
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="500">
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -123,7 +136,25 @@ const benedict = {
 
 ---
 
-## 🏆 GitHub Trophies
+## � Interactive Game - Contribution Snake!
+
+<div align="center">
+
+**🐍 Watch the snake eat my contributions! 🐍**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/benben000000/benben000000/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/benben000000/benben000000/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/benben000000/benben000000/output/github-contribution-grid-snake.svg">
+</picture>
+
+_The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
+
+</div>
+
+---
+
+## �🏆 GitHub Trophies
 
 <div align="center">
 
