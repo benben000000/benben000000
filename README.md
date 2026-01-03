@@ -71,11 +71,18 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=benben000000&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Benedict's GitHub Stats" />
+<a href="https://github.com/benben000000">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=benben000000&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=benben000000&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+</a>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=benben000000&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+<br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=benben000000&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=benben000000&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak"/>
+
+<br/>
+
+![](https://komarev.com/ghpvc/?username=benben000000&color=blueviolet&style=flat-square)
 
 </div>
 
