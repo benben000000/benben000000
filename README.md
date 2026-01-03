@@ -1,16 +1,31 @@
 <div align="center">
 
-#  Hi, I'm Benedict M. Garcia
+<!-- Animated Header with Gradient -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Benedict%20M.%20Garcia&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Developer%20|%20HRIS/ERP%20Specialist%20|%20Full-Stack%20Engineer&descAlignY=51&descAlign=50"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Fullstack+Developer;HRIS%2FERP+Specialist;Python+%7C+Odoo+%7C+PostgreSQL;Building+Production-Ready+Systems)](https://git.io/typing-svg)
+<!-- Typing Animation -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Python+%7C+TypeScript+%7C+Odoo;Building+Production-Ready+Systems;HRIS%2FERP+Development;REST+APIs+%26+Microservices;Docker+%26+CI%2FCD+Expert;10%2C000%2B+Lines+of+Code" alt="Typing SVG" /></a>
 
+<br/>
+
+<!-- Animated Social Badges -->
 <p align="center">
-  <a href="https://linkedin.com/in/benedict-garcia-tech"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:job.benedictgarcia@outlook.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/benben000000"><img src="https://img.shields.io/badge/-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/benedict-garcia-tech">
+    <img src="https://img.shields.io/badge/-Benedict%20Garcia-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/benedict-garcia-tech" />
+  </a>
+  <a href="mailto:job.benedictgarcia@outlook.com">
+    <img src="https://img.shields.io/badge/-job.benedictgarcia-D14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:job.benedictgarcia@outlook.com"/>
+  </a>
+  <a href="https://github.com/benben000000">
+    <img src="https://img.shields.io/badge/-@benben000000-181717?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/benben000000"/>
+  </a>
 </p>
 
-### 🎯 Aspiring HRIS/ERP Developer | Building Real-World Solutions
+<!-- Profile Views Counter with Animation -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=benben000000&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/benben000000?label=Followers&style=for-the-badge&color=blue" alt="Followers">
+</p>
 
 </div>
 
@@ -18,71 +33,98 @@
 
 ## 🚀 About Me
 
-**Location:** Balanga City, Bataan, Philippines  
-**Education:** Associates in Computer Technology  
-**Focus:** HRIS/ERP Systems & Full-Stack Development  
-**Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
-**Goal:** Secure HRIS/ERP Internship at AWB
+<img align="right" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
+
+**📍 Location:** Balanga City, Bataan, Philippines  
+**🎓 Education:** Associates in Computer Technology  
+**💼 Focus:** HRIS/ERP Systems & Full-Stack Development  
+**🌱 Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
+**🎯 Goal:** Secure HRIS/ERP Internship at AWB
 
 ### 💻 What I Do
 
-🔹 **Backend Development** - Building REST APIs with Flask and Python  
-🔹 **Full-Stack Development** - Creating enterprise SaaS platforms with TypeScript and React  
-🔹 **ERP Customization** - Extending Odoo HR modules with custom features  
-🔹 **Database Design** - Creating normalized PostgreSQL schemas  
-🔹 **API Integration** - Connecting systems with webhooks and XML-RPC  
-🔹 **DevOps & Infrastructure** - Docker containerization and Turborepo monorepo architecture
+```typescript
+const benedict = {
+    code: ["Python", "TypeScript", "JavaScript", "SQL", "Hack"],
+    expertise: {
+        backend: ["Flask", "REST APIs", "Microservices"],
+        fullstack: ["React", "Next.js", "TypeScript"],
+        erp: ["Odoo 17", "Custom Modules", "XML-RPC"],
+        database: ["PostgreSQL", "SQLAlchemy", "Normalization"],
+        devops: ["Docker", "Git", "Turborepo", "CI/CD"]
+    },
+    currentProjects: [
+        "Mini HRIS - Employee Management API",
+        "Operations Command Center - Enterprise SaaS",
+        "Custom Odoo HR Module - Extended Features",
+        "Lead Integration API - Webhook Automation"
+    ],
+    challenge: "Building production-ready systems for real-world impact"
+};
+```
 
-### 🎯 Current Projects
-
-- **Mini HRIS System** - Employee Management API with automated payroll
-- **Operations Command Center** - Enterprise SaaS platform with Turborepo architecture  
-- **Custom Odoo HR Module** - Extended HR features with certifications tracking  
-- **Lead Integration API** - Webhook to Odoo CRM automation
-
----
-
-## 🛠️ Tech Stack
-
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Hack](https://img.shields.io/badge/Hack-FF6600?style=for-the-badge&logo=hacklang&logoColor=white)
-
-### Databases & ORMs
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-
-### ERP & Integration
-![Odoo](https://img.shields.io/badge/Odoo-8F419A?style=for-the-badge&logo=odoo&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<br/>
 
 ---
 
-## 📊 GitHub Stats
+## 🛠️ Tech Stack & Skills
 
 <div align="center">
 
-<a href="https://github.com/benben000000">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=benben000000&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=benben000000&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-</a>
+### Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,html,css&theme=dark" />
+</p>
 
-<br/>
+### Frameworks & Libraries  
+<p>
+  <img src="https://skillicons.dev/icons?i=flask,react,nextjs,nodejs,express&theme=dark" />
+</p>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=benben000000&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak"/>
+### Databases & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb,sqlite&theme=dark" />
+</p>
 
-<br/>
+### DevOps & Cloud
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode&theme=dark" />
+</p>
 
-![](https://komarev.com/ghpvc/?username=benben000000&color=blueviolet&style=flat-square)
+### ERP & Business Tools
+<p>
+  <img src="https://img.shields.io/badge/Odoo-8F419A?style=for-the-badge&logo=odoo&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/XML--RPC-FF6600?style=for-the-badge&logo=xml&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Webhooks-2496ED?style=for-the-badge&logo=webhook&logoColor=white"/>
+</p>
+
+</div>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=benben000000&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=benben000000&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9" alt="GitHub Streak"/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=benben000000&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" alt="Top Languages"/>
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=benben000000&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=58A6FF" alt="Activity Graph"/>
+
+<!-- 3D Contribution Calendar -->
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=benben000000&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&layout=compact" alt="Coding Time"/>
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=benben000000&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
 
 </div>
 
@@ -96,10 +138,11 @@
 
 <table>
 <tr>
-<td width="33%">
+<td width="33%" align="center">
 
-### 🏢 [Mini HRIS System](https://github.com/benben000000/mini-hris)
-**Full-stack employee management**
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=mini-hris&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Mini HRIS"/>
+
+**🏢 Full-stack Employee Management**
 - Flask REST API (15+ endpoints)
 - PostgreSQL (6 tables)
 - Automated payroll + overtime
@@ -111,10 +154,11 @@
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
 </td>
-<td width="33%">
+<td width="33%" align="center">
 
-### 🎯 [Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)
-**Extended Odoo HR features**
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=custom-hr-module&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Custom HR Module"/>
+
+**🎯 Extended Odoo HR Features**
 - Custom employee models
 - Certification tracking
 - Performance reviews
@@ -126,10 +170,11 @@
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
 </td>
-<td width="33%">
+<td width="33%" align="center">
 
-### 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)
-**Webhook to Odoo CRM**
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=lead-integration&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Lead Integration"/>
+
+**🔗 Webhook to Odoo CRM**
 - Form to CRM automation
 - Input validation
 - Rate limiting + auth
@@ -148,7 +193,7 @@
 
 ### 📦 Complete Project Portfolio
 
-<details open>
+<details>
 <summary><b>🔽 All Projects (10 repositories)</b></summary>
 
 <br>
@@ -159,29 +204,29 @@
 > Full-stack HRIS System with Flask REST API, PostgreSQL database, automated payroll calculation, attendance tracking, and Docker deployment. Production-ready with 85% test coverage using pytest.
 > 
 > **Tech:** `Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `pytest`  
-> **Updated:** 35 minutes ago
+> **Last Updated:** Recently
 
 **2. 🎯 [Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)** ⭐
 > Advanced Odoo module extending HR functionality with employee skill tracking, certification management, performance review system, and custom views. Enterprise-ready with full security implementation.
 > 
 > **Tech:** `Python` `Odoo 17` `PostgreSQL` `XML` `ORM`  
-> **Updated:** 35 minutes ago
+> **Last Updated:** Recently
 
 **3. 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)** ⭐
 > Webhook API for seamless Odoo CRM integration. Captures lead data from website forms with input validation, rate limiting, API key authentication, and XML-RPC integration.
 > 
 > **Tech:** `Python` `Flask` `Odoo XML-RPC` `Redis` `Docker`  
-> **Updated:** 35 minutes ago
+> **Last Updated:** Recently
 
 ---
 
 #### 🚀 Enterprise Infrastructure & SaaS
 
-**4. �️ [Operations Command Center SaaS (Monorepo)](https://github.com/benben000000/monorepo-turborepo)**
-> High-performance monorepo architecture for enterprise operations management platform. Real-time monitoring, analytics, and command center functionalities using Turborepo for efficient multi-package management.
+**4. 🏗️ [Operations Command Center SaaS](https://github.com/benben000000/monorepo-turborepo)**
+> High-performance monorepo architecture for enterprise operations management platform. Real-time monitoring, analytics, and command center functionalities using Turborepo.
 > 
-> **Tech:** `TypeScript` `Turborepo` `Monorepo Architecture` `React` `Next.js`  
-> **Updated:** 4 days ago
+> **Tech:** `TypeScript` `Turborepo` `Monorepo` `React` `Next.js`  
+> **Last Updated:** 4 days ago
 
 ---
 
@@ -191,40 +236,78 @@
 > AI-powered studying application for students featuring intelligent note summarization, focus tracking, and productivity enhancement using machine learning.
 > 
 > **Tech:** `TypeScript` `React` `AI/ML` `Neural Networks`  
-> **Updated:** December 1, 2025
+> **Last Updated:** December 2025
 
 **6. 📚 [Akashic Record](https://github.com/benben000000/akashic-record)**
 > Intelligent knowledge management system for organizing documentation, research papers, and technical learnings. Advanced search and categorization features.
 > 
 > **Tech:** `Hack` `PHP` `Documentation` `Knowledge Base`  
-> **Updated:** 1 week ago
+> **Last Updated:** 1 week ago
 
 ---
 
 #### 🌐 Web Technologies & Platforms
 
-**7. � [WTI - Webcast Technologies Platform](https://github.com/benben000000/WTI)**
+**7. 📱 [WTI - Webcast Technologies Platform](https://github.com/benben000000/WTI)**
 > Foundation for an all-in-one broadcast management system. Webcast Technologies Implementation showcasing modern web development practices and streaming infrastructure.
 > 
 > **Tech:** `Python` `Web Technologies` `Streaming` `Broadcasting`  
-> **Updated:** 3 weeks ago
+> **Last Updated:** 3 weeks ago
 
 ---
 
 #### 📊 Project Statistics
 
-| Category | Projects | Primary Tech |
-|----------|----------|--------------|
-| 🏢 HRIS/ERP Systems | 3 | Python, Odoo, PostgreSQL, Flask |
-| 🚀 Enterprise SaaS | 1 | TypeScript, Turborepo, React |
-| 🤖 AI & Productivity | 2 | TypeScript, Hack, AI/ML |
-| � Web Platforms | 1 | Python, Web Technologies |
-| **Total** | **10** | **Multi-Tech Stack** |
+<table align="center">
+<tr>
+<td align="center">
 
-**Total Lines of Code:** 10,000+  
-**Production-Ready Systems:** 5  
-**Languages:** Python, TypeScript, Hack, PHP, SQL  
-**Active Development:** Ongoing
+**Category**
+
+</td>
+<td align="center">
+
+**Projects**
+
+</td>
+<td align="center">
+
+**Primary Tech**
+
+</td>
+</tr>
+<tr>
+<td>🏢 HRIS/ERP Systems</td>
+<td align="center">3</td>
+<td>Python, Odoo, PostgreSQL, Flask</td>
+</tr>
+<tr>
+<td>🚀 Enterprise SaaS</td>
+<td align="center">1</td>
+<td>TypeScript, Turborepo, React</td>
+</tr>
+<tr>
+<td>🤖 AI & Productivity</td>
+<td align="center">2</td>
+<td>TypeScript, Hack, AI/ML</td>
+</tr>
+<tr>
+<td>🌐 Web Platforms</td>
+<td align="center">1</td>
+<td>Python, Web Technologies</td>
+</tr>
+<tr>
+<td><b>Total</b></td>
+<td align="center"><b>10</b></td>
+<td><b>Multi-Tech Stack</b></td>
+</tr>
+</table>
+
+**📈 Portfolio Metrics:**
+- **Total Lines of Code:** 10,000+
+- **Production-Ready Systems:** 5
+- **Languages:** Python, TypeScript, Hack, PHP, SQL
+- **Active Development:** Ongoing
 
 </details>
 
@@ -232,75 +315,124 @@
 
 ---
 
-## 🎓 Learning Journey
+## 🎓 Learning Journey & Roadmap
 
 ```mermaid
+%%{init: {'theme':'dark', 'themeVariables': { 'darkMode': true }}}%%
 graph LR
-    A[Python Fundamentals] --> B[PostgreSQL & SQL]
-    B --> C[Flask APIs]
-    C --> D[Odoo Development]
-    D --> E[Docker & DevOps]
-    E --> F[Production Deployment]
-    F --> G[AWB Internship Ready! 🎯]
+    A[🐍 Python Fundamentals] -->|Mastered| B[🗄️ PostgreSQL & SQL]
+    B -->|Completed| C[⚡ Flask APIs]
+    C -->|In Progress| D[🎯 Odoo Development]
+    D -->|Next| E[🐳 Docker & DevOps]
+    E -->|Goal| F[🏢 Production Deployment]
+    F -->|Target| G[💼 AWB Internship! 🎯]
     
-    style A fill:#3776AB
-    style B fill:#316192
-    style C fill:#000000
-    style D fill:#8F419A
-    style E fill:#2496ED
-    style F fill:#2E9EF7
-    style G fill:#00FF00
+    style A fill:#3776AB,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#316192,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#000000,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#8F419A,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#2496ED,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#2E9EF7,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#00FF00,stroke:#fff,stroke-width:3px,color:#000
 ```
 
-**12-Week Structured Learning Path:**
-- ✅ Week 1-2: Python fundamentals & OOP
-- ✅ Week 3-4: PostgreSQL & database design
-- ✅ Week 5-6: JavaScript & Docker basics
-- 🔄 Week 7-8: Odoo framework (in progress)
-- 📅 Week 9-10: API development & integration
-- 📅 Week 11: Testing & documentation
-- 📅 Week 12: Portfolio polish & deployment
+<details>
+<summary><b>📅 12-Week Structured Learning Path</b></summary>
+
+<br/>
+
+| Week | Module | Status | Key Achievements |
+|:----:|:-------|:------:|:----------------|
+| 1-2 | 🐍 Python Fundamentals & OOP | ✅ | Classes, Functions, File I/O |
+| 3-4 | 🗄️ PostgreSQL & Database Design | ✅ | Normalization, Joins, Constraints |
+| 5-6 | 🌐 JavaScript & Docker Basics | ✅ | DOM, Containers, Deployment |
+| 7-8 | 🎯 Odoo Framework | 🔄 | Custom Modules, XML, RPC |
+| 9-10 | ⚡ API Development & Integration | 📅 | REST, Webhooks, Auth |
+| 11 | 🧪 Testing & Documentation | 📅 | pytest, Coverage, Docs |
+| 12 | 🚀 Portfolio & Deployment | 📅 | GitHub, Docker, CI/CD |
+
+**Legend:** ✅ Completed | 🔄 In Progress | 📅 Planned
+
+</details>
 
 ---
 
-## 🏆 Achievements
+## 🏆 Achievements & Metrics
 
 <div align="center">
 
-| Metric | Value |
-|--------|-------|
-| **Lines of Code** | 4,500+ |
-| **Projects Completed** | 3 Production-Ready |
-| **Test Coverage** | 85%+ |
-| **Technologies Mastered** | 15+ |
-| **Commits This Month** | ![Commits](https://img.shields.io/github/commit-activity/m/benben000000/mini-hris?style=flat-square) |
+<table>
+<tr>
+<td align="center" width="25%">
+
+<img src="https://img.icons8.com/fluency/96/000000/code.png" width="60"/>
+
+**Lines of Code**
+
+**10,000+**
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.icons8.com/fluency/96/000000/folder-tree.png" width="60"/>
+
+**Projects**
+
+**10 Repos**
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.icons8.com/fluency/96/000000/test-passed.png" width="60"/>
+
+**Test Coverage**
+
+**85%+**
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.icons8.com/fluency/96/000000/technology.png" width="60"/>
+
+**Technologies**
+
+**15+**
+
+</td>
+</tr>
+</table>
 
 </div>
 
 ---
 
-## 📫 Let's Connect!
+## � Connect With Me
 
 <div align="center">
 
-**Open to HRIS/ERP internship opportunities!**
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="200" />
 
-[![Email](https://img.shields.io/badge/Email-job.benedictgarcia%40outlook.com-red?style=for-the-badge&logo=gmail)](mailto:job.benedictgarcia@outlook.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-benedict--garcia--tech-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/benedict-garcia-tech)
-[![GitHub](https://img.shields.io/badge/GitHub-benben000000-black?style=for-the-badge&logo=github)](https://github.com/benben000000)
+**🚀 Open to HRIS/ERP Internship Opportunities!**
+
+<br/>
+
+[![Email](https://img.shields.io/badge/Email-job.benedictgarcia%40outlook.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:job.benedictgarcia@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-benedict--garcia--tech-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/benedict-garcia-tech)
+[![GitHub](https://img.shields.io/badge/GitHub-benben000000-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/benben000000)
+
+<br/>
 
 📍 **Location:** Balanga City, Bataan, Philippines  
 💼 **Available for:** HRIS/ERP Internship  
-📚 **Currently Learning:** Advanced Odoo Development & API Integration
+📚 **Currently Learning:** Advanced Odoo Development & API Integration  
+⚡ **Fun Fact:** I've built 5 production-ready systems while learning!
 
 ---
 
-### 💡 "Building production-ready systems, one commit at a time."
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=benben000000&color=blueviolet&style=flat-square)
+### 💡 _"Building production-ready systems, one commit at a time."_
+
+<sub>Last Updated: January 2026 • Built with ❤️ and lots of ☕</sub>
 
 </div>
-
-<!--
-**benben000000/benben000000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
