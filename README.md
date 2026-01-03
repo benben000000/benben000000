@@ -20,21 +20,23 @@
 
 **Location:** Balanga City, Bataan, Philippines  
 **Education:** Associates in Computer Technology  
-**Focus:** HRIS/ERP Systems Development  
-**Learning:** Python • Odoo • PostgreSQL • REST APIs • Docker  
+**Focus:** HRIS/ERP Systems & Full-Stack Development  
+**Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
 **Goal:** Secure HRIS/ERP Internship at AWB
 
 ### 💻 What I Do
 
 🔹 **Backend Development** - Building REST APIs with Flask and Python  
+🔹 **Full-Stack Development** - Creating enterprise SaaS platforms with TypeScript and React  
 🔹 **ERP Customization** - Extending Odoo HR modules with custom features  
 🔹 **Database Design** - Creating normalized PostgreSQL schemas  
 🔹 **API Integration** - Connecting systems with webhooks and XML-RPC  
-🔹 **DevOps** - Docker containerization and deployment
+🔹 **DevOps & Infrastructure** - Docker containerization and Turborepo monorepo architecture
 
 ### 🎯 Current Projects
 
 - **Mini HRIS System** - Employee Management API with automated payroll
+- **Operations Command Center** - Enterprise SaaS platform with Turborepo architecture  
 - **Custom Odoo HR Module** - Extended HR features with certifications tracking  
 - **Lead Integration API** - Webhook to Odoo CRM automation
 
@@ -44,8 +46,10 @@
 
 ### Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Hack](https://img.shields.io/badge/Hack-FF6600?style=for-the-badge&logo=hacklang&logoColor=white)
 
 ### Databases & ORMs
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -57,8 +61,8 @@
 
 ### DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=for-the-badge&logo=turborepo&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
@@ -138,82 +142,65 @@
 ### 📦 Complete Project Portfolio
 
 <details open>
-<summary><b>🔽 All Projects (13 repositories)</b></summary>
+<summary><b>🔽 All Projects (10 repositories)</b></summary>
 
 <br>
 
-#### 🤖 AI & Productivity Applications
-
-**1. 🧠 [Neuro Focus AI](https://github.com/benben000000/neuro-focus-ai)** | **[Alt Version](https://github.com/benben000000/neurofocusai)**
-> AI-powered focus and productivity enhancement tool leveraging machine learning for cognitive optimization and task management.
-> 
-> **Tech:** `AI/ML` `Python` `Neural Networks`
-
-**2. 💎 [Benlium](https://github.com/benben000000/benlium)**
-> Advanced personal knowledge management system with AI integration for research, note-taking, and idea connections.
-> 
-> **Tech:** `React` `TypeScript` `AI Integration`
-
-**3. 📚 [Akashic Record](https://github.com/benben000000/akashic-record)**
-> Digital knowledge repository and documentation system for storing and organizing technical learnings and resources.
-> 
-> **Tech:** `Markdown` `Documentation` `Knowledge Base`
-
----
-
 #### 🏢 HRIS/ERP & Business Systems
 
-**4. 🏢 [Mini HRIS System](https://github.com/benben000000/mini-hris)** ⭐
-> Complete employee management system with REST API, automated payroll, attendance tracking, and Docker deployment. Built with Flask, PostgreSQL, and pytest for 85% test coverage.
+**1. 🏢 [Mini HRIS System](https://github.com/benben000000/mini-hris)** ⭐
+> Full-stack HRIS System with Flask REST API, PostgreSQL database, automated payroll calculation, attendance tracking, and Docker deployment. Production-ready with 85% test coverage using pytest.
 > 
-> **Tech:** `Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `pytest`
+> **Tech:** `Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `pytest`  
+> **Updated:** 35 minutes ago
 
-**5. 🎯 [Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)** ⭐
-> Extended Odoo HR functionality with certification tracking, performance management, skills database, and custom views. Production-ready module with full security implementation.
+**2. 🎯 [Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)** ⭐
+> Advanced Odoo module extending HR functionality with employee skill tracking, certification management, performance review system, and custom views. Enterprise-ready with full security implementation.
 > 
-> **Tech:** `Odoo 17` `Python` `PostgreSQL` `XML` `ORM`
+> **Tech:** `Python` `Odoo 17` `PostgreSQL` `XML` `ORM`  
+> **Updated:** 35 minutes ago
 
-**6. 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)** ⭐
-> Webhook API for seamless website-to-Odoo CRM integration. Features input validation, rate limiting, API key authentication, and comprehensive error handling.
+**3. 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)** ⭐
+> Webhook API for seamless Odoo CRM integration. Captures lead data from website forms with input validation, rate limiting, API key authentication, and XML-RPC integration.
 > 
-> **Tech:** `Python` `Flask` `Odoo XML-RPC` `Redis` `Docker`
-
-**7. 🎛️ [Operations Command Center SaaS](https://github.com/benben000000/Operations-Command-Center-SaaS)**
-> Enterprise operations management platform for real-time monitoring, analytics, and command center functionalities.
-> 
-> **Tech:** `SaaS` `Real-time Analytics` `Dashboard`
+> **Tech:** `Python` `Flask` `Odoo XML-RPC` `Redis` `Docker`  
+> **Updated:** 35 minutes ago
 
 ---
 
-#### 🚀 Full-Stack & Architecture
+#### 🚀 Enterprise Infrastructure & SaaS
 
-**8. 🏗️ [Monorepo Turborepo](https://github.com/benben000000/monorepo-turborepo)**
-> Modern monorepo architecture using Turborepo for efficient multi-package management and build optimization.
+**4. �️ [Operations Command Center SaaS (Monorepo)](https://github.com/benben000000/monorepo-turborepo)**
+> High-performance monorepo architecture for enterprise operations management platform. Real-time monitoring, analytics, and command center functionalities using Turborepo for efficient multi-package management.
 > 
-> **Tech:** `Turborepo` `Monorepo` `TypeScript` `Build Tools`
-
-**9. 📱 [WTI](https://github.com/benben000000/WTI)**
-> Web Technologies Implementation project showcasing modern web development practices and frameworks.
-> 
-> **Tech:** `Web Technologies` `Modern Stack`
+> **Tech:** `TypeScript` `Turborepo` `Monorepo Architecture` `React` `Next.js`  
+> **Updated:** 4 days ago
 
 ---
 
-#### 🖥️ Desktop Applications
+#### 🤖 AI & Productivity Tools
 
-**10. 🎨 [Windows Forms App](https://github.com/benben000000/windowsformapp)** | **[v1](https://github.com/benben000000/WinFormsApp1)**
-> Windows desktop applications built with .NET Windows Forms for GUI-based user interactions.
+**5. 🧠 [Neuro Focus AI](https://github.com/benben000000/neuro-focus-ai)**
+> AI-powered studying application for students featuring intelligent note summarization, focus tracking, and productivity enhancement using machine learning.
 > 
-> **Tech:** `C#` `.NET` `Windows Forms` `Desktop Development`
+> **Tech:** `TypeScript` `React` `AI/ML` `Neural Networks`  
+> **Updated:** December 1, 2025
+
+**6. 📚 [Akashic Record](https://github.com/benben000000/akashic-record)**
+> Intelligent knowledge management system for organizing documentation, research papers, and technical learnings. Advanced search and categorization features.
+> 
+> **Tech:** `Hack` `PHP` `Documentation` `Knowledge Base`  
+> **Updated:** 1 week ago
 
 ---
 
-#### � Creative & Personal Projects
+#### 🌐 Web Technologies & Platforms
 
-**11. 👨‍💻 [Benedict Garcia Portfolio](https://github.com/benben000000/benedictgarcia)**
-> Personal portfolio website showcasing projects, skills, and professional journey.
+**7. � [WTI - Webcast Technologies Platform](https://github.com/benben000000/WTI)**
+> Foundation for an all-in-one broadcast management system. Webcast Technologies Implementation showcasing modern web development practices and streaming infrastructure.
 > 
-> **Tech:** `Portfolio` `Web Development`
+> **Tech:** `Python` `Web Technologies` `Streaming` `Broadcasting`  
+> **Updated:** 3 weeks ago
 
 ---
 
@@ -221,15 +208,15 @@
 
 | Category | Projects | Primary Tech |
 |----------|----------|--------------|
-| 🤖 AI & Productivity | 3 | Python, AI/ML, TypeScript |
-| 🏢 HRIS/ERP Systems | 4 | Python, Odoo, PostgreSQL, Flask |
-| 🚀 Full-Stack | 2 | Turborepo, Web Tech |
-| 🖥️ Desktop Apps | 2 | C#, .NET |
-| 🎨 Creative | 1 | Web, Portfolio |
-| **Total** | **13** | **Multi-Tech Stack** |
+| 🏢 HRIS/ERP Systems | 3 | Python, Odoo, PostgreSQL, Flask |
+| 🚀 Enterprise SaaS | 1 | TypeScript, Turborepo, React |
+| 🤖 AI & Productivity | 2 | TypeScript, Hack, AI/ML |
+| � Web Platforms | 1 | Python, Web Technologies |
+| **Total** | **10** | **Multi-Tech Stack** |
 
 **Total Lines of Code:** 10,000+  
-**Production-Ready Systems:** 6  
+**Production-Ready Systems:** 5  
+**Languages:** Python, TypeScript, Hack, PHP, SQL  
 **Active Development:** Ongoing
 
 </details>
