@@ -33,29 +33,35 @@
 
 ## 🚀 About Me
 
+<img align="right" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
+
 **📍 Location:** Balanga City, Bataan, Philippines  
 **🎓 Education:** Associates in Computer Technology  
 **💼 Focus:** HRIS/ERP Systems & Full-Stack Development  
-**🌱 Currently Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
+**🌱 Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
 **🎯 Goal:** Secure HRIS/ERP Internship at AWB
-
-<br/>
 
 ### 💻 What I Do
 
-🔹 **Backend Development** - Building REST APIs with Flask and Python  
-🔹 **Full-Stack Development** - Creating enterprise SaaS platforms with TypeScript and React  
-🔹 **ERP Customization** - Extending Odoo HR modules with custom features  
-🔹 **Database Design** - Normalized PostgreSQL schemas with complex relationships  
-🔹 **API Integration** - Webhooks, XML-RPC, and third-party integrations  
-🔹 **DevOps & Infrastructure** - Docker containerization and Turborepo monorepo architecture
-
-### 🎯 Current Projects
-
-✅ **Mini HRIS System** - Employee Management API with automated payroll  
-✅ **Operations Command Center** - Enterprise SaaS platform with Turborepo  
-✅ **Custom Odoo HR Module** - Extended HR features with certification tracking  
-✅ **Lead Integration API** - Webhook to Odoo CRM automation
+```typescript
+const benedict = {
+    code: ["Python", "TypeScript", "JavaScript", "SQL", "Hack"],
+    expertise: {
+        backend: ["Flask", "REST APIs", "Microservices"],
+        fullstack: ["React", "Next.js", "TypeScript"],
+        erp: ["Odoo 17", "Custom Modules", "XML-RPC"],
+        database: ["PostgreSQL", "SQLAlchemy", "Normalization"],
+        devops: ["Docker", "Git", "Turborepo", "CI/CD"]
+    },
+    currentProjects: [
+        "Mini HRIS - Employee Management API",
+        "Operations Command Center - Enterprise SaaS",
+        "Custom Odoo HR Module - Extended Features",
+        "Lead Integration API - Webhook Automation"
+    ],
+    challenge: "Building production-ready systems for real-world impact"
+};
+```
 
 <br/>
 
@@ -131,16 +137,15 @@
 
 <div align="center">
 
-### ⭐ Latest HRIS/ERP Projects
+### ⭐ Latest HRIS/ERP Projects (Pinned)
 
 <table>
 <tr>
 <td width="33%" align="center">
 
-### [🏢 Mini HRIS System](https://github.com/benben000000/mini-hris)
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=mini-hris&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Mini HRIS"/>
 
-**Full-stack Employee Management**
-
+**🏢 Full-stack Employee Management**
 - Flask REST API (15+ endpoints)
 - PostgreSQL (6 tables)
 - Automated payroll + overtime
@@ -150,20 +155,18 @@
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </td>
 <td width="33%" align="center">
 
-### [🎯 Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=custom-hr-module&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Custom HR Module"/>
 
-**Extended Odoo HR Features**
-
+**🎯 Extended Odoo HR Features**
 - Custom employee models
 - Certification tracking
 - Performance reviews
 - Skills management
-- Custom XML views
+- Custom views (form/tree/kanban)
 
 ![Odoo](https://img.shields.io/badge/-Odoo-8F419A?style=flat-square&logo=odoo&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -172,15 +175,14 @@
 </td>
 <td width="33%" align="center">
 
-### [🔗 Lead Integration API](https://github.com/benben000000/lead-integration)
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=lead-integration&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Lead Integration"/>
 
-**Webhook to Odoo CRM**
-
+**🔗 Webhook to Odoo CRM**
 - Form to CRM automation
 - Input validation
 - Rate limiting + auth
 - XML-RPC integration
-- Comprehensive error handling
+- Error handling
 
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Odoo](https://img.shields.io/badge/-Odoo-8F419A?style=flat-square&logo=odoo&logoColor=white)
@@ -189,8 +191,6 @@
 </td>
 </tr>
 </table>
-
-</div>
 
 ---
 
