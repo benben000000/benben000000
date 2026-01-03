@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Benedict M. Garcia
+#  Hi, I'm Benedict M. Garcia
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Backend+Developer;HRIS%2FERP+Specialist;Python+%7C+Odoo+%7C+PostgreSQL;Building+Production-Ready+Systems)](https://git.io/typing-svg)
 
