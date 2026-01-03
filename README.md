@@ -87,45 +87,97 @@ class BenedictGarcia:
 
 <div align="center">
 
-### 🏢 Mini HRIS System
-[![Mini HRIS](https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=mini-hris&theme=tokyonight&hide_border=true)](https://github.com/benben000000/mini-hris)
+### ⭐ Latest Projects (Pinned)
 
-**Full-stack employee management system**
-- 🔹 Flask REST API with 15+ endpoints
-- 🔹 PostgreSQL database (6 tables with relationships)
-- 🔹 Automated payroll calculation with overtime
-- 🔹 85% test coverage (pytest)
-- 🔹 Docker deployment ready
+<table>
+<tr>
+<td width="33%">
 
-**Tech:** `Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `pytest`
+### 🏢 [Mini HRIS System](https://github.com/benben000000/mini-hris)
+**Full-stack employee management**
+- Flask REST API (15+ endpoints)
+- PostgreSQL (6 tables)
+- Automated payroll + overtime
+- 85% test coverage
+- Docker ready
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+
+</td>
+<td width="33%">
+
+### 🎯 [Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)
+**Extended Odoo HR features**
+- Custom employee models
+- Certification tracking
+- Performance reviews
+- Skills management
+- Custom views (form/tree/kanban)
+
+![Odoo](https://img.shields.io/badge/-Odoo-8F419A?style=flat-square&logo=odoo&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+
+</td>
+<td width="33%">
+
+### 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)
+**Webhook to Odoo CRM**
+- Form to CRM automation
+- Input validation
+- Rate limiting + auth
+- XML-RPC integration
+- Error handling
+
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Odoo](https://img.shields.io/badge/-Odoo-8F419A?style=flat-square&logo=odoo&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🎯 Custom Odoo HR Module
-[![Custom HR Module](https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=custom-hr-module&theme=tokyonight&hide_border=true)](https://github.com/benben000000/custom-hr-module)
+### 📦 All Projects
 
-**Extended Odoo HR functionality**
-- 🔹 Custom employee fields & computed values
-- 🔹 Certification tracking with expiry alerts
-- 🔹 Performance review system
-- 🔹 Skills management
-- 🔹 Custom views (form, tree, kanban)
+<details>
+<summary><b>🔽 Click to view complete project portfolio (5 projects)</b></summary>
 
-**Tech:** `Odoo 17` `Python` `PostgreSQL` `XML`
+<br>
+
+#### 🏆 Production-Ready Applications
+
+**1. 🏢 [Mini HRIS System](https://github.com/benben000000/mini-hris)** - *December 2025*
+> Complete employee management system with REST API, automated payroll, attendance tracking, and Docker deployment. Built with Flask, PostgreSQL, and pytest for 85% test coverage.
+
+**2. 🎯 [Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)** - *January 2026*
+> Extended Odoo HR functionality with certification tracking, performance management, skills database, and custom views. Production-ready module with full security implementation.
+
+**3. 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)** - *January 2026*
+> Webhook API for seamless website-to-Odoo CRM integration. Features input validation, rate limiting, API key authentication, and comprehensive error handling.
 
 ---
 
-### 🔗 Lead Integration API
-[![Lead Integration](https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=lead-integration&theme=tokyonight&hide_border=true)](https://github.com/benben000000/lead-integration)
+#### 🎓 Learning Projects
 
-**Webhook API for Odoo CRM integration**
-- 🔹 Website form to Odoo CRM automation
-- 🔹 Input validation & sanitization
-- 🔹 Rate limiting & API key authentication
-- 🔹 XML-RPC integration
-- 🔹 Comprehensive error handling
+**4. � HR CLI Tool** - *November 2025*
+> Command-line employee management system demonstrating Python fundamentals, OOP principles, file I/O operations, and JSON data handling. First step in learning backend development.
+> 
+> **Tech Stack:** `Python` `JSON` `Object-Oriented Programming`
 
-**Tech:** `Python` `Flask` `Odoo XML-RPC` `Redis` `Docker`
+**5. 🗄️ HR Database Schema** - *November 2025*
+> Normalized PostgreSQL database design for HRIS with 6 tables, relationships, constraints, and sample data. Demonstrates database design principles and SQL proficiency.
+> 
+> **Tech Stack:** `PostgreSQL` `SQL` `Database Design`
+
+---
+
+**Total:** 5 Projects | ~5,000+ Lines of Code | 3 Production-Ready Systems
+
+</details>
 
 </div>
 
