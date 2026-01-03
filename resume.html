@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benedict M. Garcia - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header .contact {
+            font-size: 1em;
+            opacity: 0.95;
+            margin-top: 15px;
+        }
+
+        .header .contact a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: opacity 0.3s;
+        }
+
+        .header .contact a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        .action-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-back {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-back:hover {
+            background: white;
+            color: #667eea;
+        }
+
+        .btn-download {
+            background: #ff6b6b;
+            color: white;
+        }
+
+        .btn-download:hover {
+            background: #ee5a52;
+            transform: scale(1.05);
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            animation: slideIn 0.6s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {opacity: 0; transform: translateX(-20px);}
+            to {opacity: 1; transform: translateX(0);}
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 80px;
+            height: 3px;
+            background: #764ba2;
+        }
+
+        .objective {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #333;
+            padding: 20px;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-item {
+            padding: 15px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s;
+        }
+
+        .skill-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .skill-item strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .project {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 5px solid #667eea;
+            transition: all 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .project h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .project .meta {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .project ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+
+        .project li {
+            margin-bottom: 8px;
+        }
+
+        .cert {
+            padding: 15px;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #ff6b6b;
+        }
+
+        .cert h3 {
+            color: #d63031;
+            margin-bottom: 5px;
+        }
+
+        .achievements ul {
+            list-style: none;
+        }
+
+        .achievements li {
+            padding: 12px;
+            margin-bottom: 10px;
+            background: #f0f3f7;
+            border-radius: 8px;
+            border-left: 4px solid #764ba2;
+            transition: all 0.3s;
+        }
+
+        .achievements li:hover {
+            background: #e6ebf1;
+            transform: translateX(5px);
+        }
+
+        .achievements li::before {
+            content: '✓ ';
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+            .action-buttons {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            .action-buttons {
+                position: static;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="action-buttons">
+                <a href="https://github.com/benben000000" class="btn btn-back">← Back to Profile</a>
+                <button class="btn btn-download" onclick="window.print()">📥 Download PDF</button>
+            </div>
+            <h1>BENEDICT M. GARCIA</h1>
+            <div class="contact">
+                📧 <a href="mailto:job.benedictgarcia@outlook.com">job.benedictgarcia@outlook.com</a> | 
+                📱 09918090338 | 
+                📍 Balanga City, Bataan
+                <br>
+                💼 <a href="https://linkedin.com/in/benedict-garcia-tech" target="_blank">LinkedIn</a> | 
+                💻 <a href="https://github.com/benben000000" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">OBJECTIVE</h2>
+                <p class="objective">
+                    Motivated aspiring Fullstack Developer seeking an HRIS/ERP Internship at Achieve Without Borders to apply Python, PostgreSQL, and Odoo skills while contributing to business logic development, API integration, and testing of HR and ERP modules.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">TECHNICAL SKILLS</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <strong>Programming Languages:</strong>
+                        Python, JavaScript, SQL, TypeScript, Hack
+                    </div>
+                    <div class="skill-item">
+                        <strong>Frameworks & Tools:</strong>
+                        Odoo Framework, Flask, Docker, Git, Postman
+                    </div>
+                    <div class="skill-item">
+                        <strong>Databases:</strong>
+                        PostgreSQL, Database Design, SQL Queries
+                    </div>
+                    <div class="skill-item">
+                        <strong>APIs:</strong>
+                        REST API Development, API Integration, JSON, XML-RPC
+                    </div>
+                    <div class="skill-item">
+                        <strong>Testing:</strong>
+                        Manual Testing, Automated Testing (pytest)
+                    </div>
+                    <div class="skill-item">
+                        <strong>Documentation:</strong>
+                        Technical Documentation, User Manuals, API Documentation
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">EDUCATION</h2>
+                <div class="project">
+                    <h3>Associates Degree in Computer Technology</h3>
+                    <p class="meta">AMA Computer Learning Center, Balanga City, Bataan | Expected: December 2026</p>
+                    <p><strong>Relevant Coursework:</strong> Database Systems, Web Development, Software Engineering</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">PROJECTS</h2>
+                
+                <div class="project">
+                    <h3>Mini HRIS System</h3>
+                    <p class="meta">Python, Flask, PostgreSQL, Docker | February 2026 | <a href="https://github.com/benben000000/mini-hris" target="_blank">GitHub</a></p>
+                    <ul>
+                        <li>Developed full-stack employee management system with REST API supporting CRUD operations for 100+ employee records</li>
+                        <li>Designed normalized PostgreSQL database schema with 6 tables including employees, departments, attendance, and payroll</li>
+                        <li>Implemented attendance tracking and automated payroll calculation with overtime support</li>
+                        <li>Containerized application using Docker for consistent deployment across environments</li>
+                        <li>Achieved 90% test coverage using pytest with 25+ automated test cases</li>
+                        <li>Created comprehensive API documentation with Postman collection</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h3>Custom Odoo HR Module</h3>
+                    <p class="meta">Odoo 17, Python, PostgreSQL | March 2026 | <a href="https://github.com/benben000000/custom-hr-module" target="_blank">GitHub</a></p>
+                    <ul>
+                        <li>Extended Odoo's hr.employee model with custom fields for employee certifications and performance metrics</li>
+                        <li>Implemented computed fields for automatic calculation of years of service and compensation totals</li>
+                        <li>Created custom views (form, tree, kanban) for enhanced user experience</li>
+                        <li>Developed automated workflows for leave request approvals</li>
+                        <li>Wrote comprehensive unit tests using Odoo test framework</li>
+                        <li>Documented installation and configuration in detailed user manual</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h3>Lead Integration API</h3>
+                    <p class="meta">Flask, REST API, Odoo CRM | April 2026 | <a href="https://github.com/benben000000/lead-integration" target="_blank">GitHub</a></p>
+                    <ul>
+                        <li>Built webhook API to capture lead data from website contact forms and integrate with Odoo CRM</li>
+                        <li>Implemented data validation, sanitization, and transformation logic for secure data handling</li>
+                        <li>Designed error handling and logging system for monitoring integration health</li>
+                        <li>Created Postman collection with 10+ API endpoints for testing and documentation</li>
+                        <li>Reduced manual data entry time by automating lead capture process</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">CERTIFICATIONS & LEARNING</h2>
+                <div class="cert">
+                    <h3>Python Development Certificate | Self-Study</h3>
+                    <p class="meta">February 2026</p>
+                    <p>Completed 100+ hours of Python programming including OOP, data structures, and file I/O</p>
+                </div>
+                <div class="cert">
+                    <h3>PostgreSQL Database Fundamentals | Self-Study</h3>
+                    <p class="meta">March 2026</p>
+                    <p>Mastered SQL queries, joins, indexing, and database design principles</p>
+                </div>
+                <div class="cert">
+                    <h3>Odoo Framework Development | Self-Study</h3>
+                    <p class="meta">April 2026</p>
+                    <p>Built custom modules, mastered ORM, and implemented business logic in Odoo 17</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">ADDITIONAL SKILLS</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <strong>Version Control:</strong>
+                        Git, GitHub, Branching Strategies
+                    </div>
+                    <div class="skill-item">
+                        <strong>Collaboration Tools:</strong>
+                        Slack, Microsoft Teams, JIRA
+                    </div>
+                    <div class="skill-item">
+                        <strong>Languages:</strong>
+                        English (Fluent), Filipino (Native)
+                    </div>
+                    <div class="skill-item">
+                        <strong>Soft Skills:</strong>
+                        Team Collaboration, Self-Directed Learning, Problem Solving
+                    </div>
+                </div>
+            </div>
+
+            <div class="section achievements">
+                <h2 class="section-title">ACHIEVEMENTS</h2>
+                <ul>
+                    <li>Completed 12-week intensive self-study program in HRIS/ERP technologies</li>
+                    <li>Published 3 production-ready projects on GitHub with comprehensive documentation</li>
+                    <li>Achieved 85%+ test coverage across all projects</li>
+                    <li>Contributed to open-source Python projects on GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

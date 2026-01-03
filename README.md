@@ -82,8 +82,6 @@ const benedict = {
 
 <br/>
 
----
-
 ## 🛠️ Tech Stack & Skills
 
 <div align="center">
@@ -115,6 +113,99 @@ const benedict = {
   <img src="https://img.shields.io/badge/XML--RPC-FF6600?style=for-the-badge&logo=xml&logoColor=white"/>
   <img src="https://img.shields.io/badge/Webhooks-2496ED?style=for-the-badge&logo=webhook&logoColor=white"/>
 </p>
+
+</div>
+
+---
+
+## 📊 Skill Proficiency
+
+<div align="center">
+
+<table width="100%">
+<tr>
+<td width="50%">
+
+**Backend Development**
+```
+Python        ████████████████░░░░ 85%
+PostgreSQL    ████████████████░░░░ 80%
+Flask         ███████████████░░░░░ 75%
+REST APIs     ███████████████░░░░░ 75%
+```
+
+**Frontend Development**
+```
+TypeScript    ██████████████░░░░░░ 70%
+React         ██████████████░░░░░░ 70%
+HTML/CSS      ████████████████░░░░ 80%
+JavaScript    ███████████████░░░░░ 75%
+```
+
+</td>
+<td width="50%">
+
+**ERP & Business Logic**
+```
+Odoo 17       ███████████████░░░░░ 75%
+XML-RPC       ██████████████░░░░░░ 70%
+Business      ████████████████░░░░ 80%
+Logic         
+```
+
+**DevOps & Tools**
+```
+Docker        █████████████░░░░░░░ 65%
+Git/GitHub    ████████████████░░░░ 80%
+CI/CD         ███████████░░░░░░░░░ 55%
+Linux         ██████████████░░░░░░ 70%
+```
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 📈 Enhanced GitHub Metrics
+
+<div align="center">
+
+<!-- Profile Views & Stats -->
+<p>
+  <img src="https://komarev.com/ghpvc/?username=benben000000&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/benben000000?label=Followers&style=for-the-badge&color=blue" alt="Followers">
+  <img src="https://img.shields.io/github/stars/benben000000?label=Total%20Stars&style=for-the-badge&color=yellow" alt="Stars">
+</p>
+
+</div>
+
+---
+
+## 📥 Resume & Contact
+
+<div align="center">
+
+**🎯 Seeking HRIS/ERP Internship Opportunities**
+
+<br/>
+
+<a href="https://benben000000.github.io/benben000000/resume.html" target="_blank">
+  <img src="https://img.shields.io/badge/📄_VIEW_RESUME-667eea?style=for-the-badge&logoColor=white&labelColor=764ba2" alt="View Resume" height="50"/>
+</a>
+
+<br/><br/>
+
+<a href="mailto:job.benedictgarcia@outlook.com">
+  <img src="https://img.shields.io/badge/Email-job.benedictgarcia@outlook.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+<a href="https://linkedin.com/in/benedict-garcia-tech">
+  <img src="https://img.shields.io/badge/LinkedIn-benedict--garcia--tech-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+**📍 Available for:** Immediate start | **💼 Location:** Balanga City, Bataan, Philippines
 
 </div>
 
