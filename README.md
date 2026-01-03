@@ -37,21 +37,6 @@
 <tr>
 <td width="50%">
 
-**📍 Location:** Balanga City, Bataan, Philippines  
-**🎓 Education:** Associates in Computer Technology  
-**💼 Focus:** HRIS/ERP Systems & Full-Stack Development  
-**🌱 Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
-**🎯 Goal:** Secure HRIS/ERP Internship at AWB
-
-### 💻 What I Do
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
-</div>
-
-</td>
-<td width="50%">
-
 ```typescript
 const benedict = {
     code: ["Python", "TypeScript", "JavaScript", "SQL", "Hack"],
@@ -71,6 +56,21 @@ const benedict = {
     challenge: "Building production-ready systems for real-world impact"
 };
 ```
+
+</td>
+<td width="50%">
+
+**📍 Location:** Balanga City, Bataan, Philippines  
+**🎓 Education:** Associates in Computer Technology  
+**💼 Focus:** HRIS/ERP Systems & Full-Stack Development  
+**🌱 Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
+**🎯 Goal:** Secure HRIS/ERP Internship at AWB
+
+### 💻 What I Do
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
+</div>
 
 </td>
 </tr>
