@@ -18,31 +18,25 @@
 
 ## 🚀 About Me
 
-```python
-class BenedictGarcia:
-    def __init__(self):
-        self.location = "Balanga City, Bataan, Philippines"
-        self.education = "Associates in Computer Technology"
-        self.current_focus = "HRIS/ERP Systems Development"
-        self.learning = ["Python", "Odoo", "PostgreSQL", "REST APIs", "Docker"]
-        self.goal = "Secure HRIS/ERP Internship at AWB"
-    
-    def get_tech_stack(self):
-        return {
-            "backend": ["Python", "Flask", "Odoo"],
-            "database": ["PostgreSQL", "SQLAlchemy"],
-            "apis": ["REST", "XML-RPC", "Webhooks"],
-            "devops": ["Docker", "Git", "Linux"],
-            "testing": ["pytest", "Postman"],
-        }
-    
-    def current_projects(self):
-        return [
-            "Mini HRIS System - Employee Management API",
-            "Custom Odoo HR Module - Extended HR Features",
-            "Lead Integration API - Webhook to Odoo CRM"
-        ]
-```
+**Location:** Balanga City, Bataan, Philippines  
+**Education:** Associates in Computer Technology  
+**Focus:** HRIS/ERP Systems Development  
+**Learning:** Python • Odoo • PostgreSQL • REST APIs • Docker  
+**Goal:** Secure HRIS/ERP Internship at AWB
+
+### 💻 What I Do
+
+🔹 **Backend Development** - Building REST APIs with Flask and Python  
+🔹 **ERP Customization** - Extending Odoo HR modules with custom features  
+🔹 **Database Design** - Creating normalized PostgreSQL schemas  
+🔹 **API Integration** - Connecting systems with webhooks and XML-RPC  
+🔹 **DevOps** - Docker containerization and deployment
+
+### 🎯 Current Projects
+
+- **Mini HRIS System** - Employee Management API with automated payroll
+- **Custom Odoo HR Module** - Extended HR features with certifications tracking  
+- **Lead Integration API** - Webhook to Odoo CRM automation
 
 ---
 
