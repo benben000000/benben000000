@@ -35,7 +35,19 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+
+**📍 Location:** Balanga City, Bataan, Philippines  
+**🎓 Education:** Associates in Computer Technology  
+**💼 Focus:** HRIS/ERP Systems & Full-Stack Development  
+**🌱 Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
+**🎯 Goal:** Secure HRIS/ERP Internship at AWB
+
+<br/>
+
+### 💻 What I Do
+
+<br/>
 
 ```typescript
 const benedict = {
@@ -58,15 +70,7 @@ const benedict = {
 ```
 
 </td>
-<td width="50%">
-
-**📍 Location:** Balanga City, Bataan, Philippines  
-**🎓 Education:** Associates in Computer Technology  
-**💼 Focus:** HRIS/ERP Systems & Full-Stack Development  
-**🌱 Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
-**🎯 Goal:** Secure HRIS/ERP Internship at AWB
-
-### 💻 What I Do
+<td width="50%" valign="top">
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
