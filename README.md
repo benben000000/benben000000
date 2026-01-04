@@ -27,6 +27,19 @@
   <img src="https://img.shields.io/github/followers/benben000000?label=Followers&style=for-the-badge&color=blue" alt="Followers">
 </p>
 
+<!-- Resume Button - Top of Page -->
+<br/>
+
+<p align="center">
+  <a href="https://benben000000.github.io/benben000000/resume.html" target="_blank">
+    <img src="https://img.shields.io/badge/📄_VIEW_MY_RESUME-667eea?style=for-the-badge&logoColor=white&labelColor=764ba2" alt="View Resume" height="50"/>
+  </a>
+</p>
+
+<p align="center" style="font-size: 14px; color: #888;">
+  💼 <strong>Available for HRIS/ERP Internship</strong> | 📍 Balanga City, Bataan, Philippines
+</p>
+
 </div>
 
 ---
