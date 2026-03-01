@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated Header with Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Benedict%20M.%20Garcia&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Developer%20|%20HRIS/ERP%20Specialist%20|%20Full-Stack%20Engineer&descAlignY=51&descAlign=50"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Benedict%20M.%20Garcia&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20|%20Data%20Analyst%20|%20Machine%20Learning&descAlignY=51&descAlign=50"/>
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Python+%7C+TypeScript+%7C+Odoo;Building+Production-Ready+Systems;HRIS%2FERP+Development;REST+APIs+%26+Microservices;Docker+%26+CI%2FCD+Expert;10%2C000%2B+Lines+of+Code" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Python+%7C+TensorFlow+%7C+PyTorch;Building+Intelligent+AI+Systems;Data+Pipelines+%26+Deep+Learning;Computer+Vision+%26+NLP;Scikit-learn+%7C+Pandas+%7C+NumPy;AI+Validation+%26+Diagnostics" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -52,9 +52,9 @@
 
 **📍 Location:** Balanga City, Bataan, Philippines  
 **🎓 Education:** Associates in Computer Technology  
-**💼 Focus:** HRIS/ERP Systems & Full-Stack Development  
-**🌱 Learning:** Python • Odoo • PostgreSQL • TypeScript • React • Docker  
-**🎯 Goal:** Secure HRIS/ERP Internship at AWB
+**💼 Focus:** AI Engineering, Machine Learning & Data Analytics  
+**🌱 Learning:** AI Validation (Groundedness, Hallucination Detection)  
+**🎯 Goal:** Secure AI Engineer & Data Analyst Roles
 
 <br/>
 
@@ -64,21 +64,27 @@
 
 ```typescript
 const benedict = {
-    code: ["Python", "TypeScript", "JavaScript", "SQL", "Hack"],
+    code: ["Python", "SQL", "TypeScript", "JavaScript", "R"],
     expertise: {
-        backend: ["Flask", "REST APIs", "Microservices"],
-        fullstack: ["React", "Next.js", "TypeScript"],
-        erp: ["Odoo 17", "Custom Modules", "XML-RPC"],
-        database: ["PostgreSQL", "SQLAlchemy", "Normalization"],
-        devops: ["Docker", "Git", "Turborepo", "CI/CD"]
+        ai_engineering: ["TensorFlow", "PyTorch", "Keras"],
+        traditional_ml: ["Scikit-learn", "Predictive Modeling"],
+        data_science: ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
+        computer_vision: ["OpenCV", "Image Processing"],
+        nlp: ["NLTK", "Text Processing", "LLM Integration"]
+    },
+    metricsFocus: [
+        "Classification: Accuracy, Precision, Recall, F1",
+        "Ranking/Probabilistic: ROC-AUC",
+        "Generative AI: Contextual Relevance, Groundedness"
+    
     },
     currentProjects: [
-        "Mini HRIS - Employee Management API",
-        "Operations Command Center - Enterprise SaaS",
-        "Custom Odoo HR Module - Extended Features",
-        "Lead Integration API - Webhook Automation"
+        "Neuro Focus AI - ML-Powered Cognitive Engine",
+        "Akashic Record - Intelligent Knowledge System",
+        "Automated Data Pipeline & Analytics Dashboard",
+        "Computer Vision Catalog Processor"
     ],
-    challenge: "Building production-ready systems for real-world impact"
+    challenge: "Building production-ready AI models and actionable data insights"
 };
 ```
 
@@ -99,33 +105,30 @@ const benedict = {
 
 <div align="center">
 
-### Languages
+### Machine Learning & Computer Vision
 <p>
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,html,css&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,scikitlearn,opencv&theme=dark" />
 </p>
 
-### Frameworks & Libraries  
+### Data Science & Analytics
 <p>
-  <img src="https://skillicons.dev/icons?i=flask,react,nextjs,nodejs,express&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,r,matlab&theme=dark" />
 </p>
 
-### Databases & Tools
+### NLP & Libraries
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb,sqlite&theme=dark" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NLTK-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
-### DevOps & Cloud
+### Development & DevOps
 <p>
   <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode&theme=dark" />
 </p>
 
-### ERP & Business Tools
-<p>
-  <img src="https://img.shields.io/badge/Odoo-8F419A?style=for-the-badge&logo=odoo&logoColor=white"/>
-  <img src="https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XML--RPC-FF6600?style=for-the-badge&logo=xml&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Webhooks-2496ED?style=for-the-badge&logo=webhook&logoColor=white"/>
-</p>
+
 
 </div>
 
@@ -139,38 +142,40 @@ const benedict = {
 <tr>
 <td width="50%">
 
-**Backend Development**
+**AI & Deep Learning**
 ```
-Python        ████████████████░░░░ 85%
-PostgreSQL    ████████████████░░░░ 80%
-Flask         ███████████████░░░░░ 75%
-REST APIs     ███████████████░░░░░ 75%
+PyTorch/TF    ████████████████░░░░ 85%
+Computer Vis  ████████████████░░░░ 80%
+Scikit-learn  ███████████████░░░░░ 75%
+NLP (NLTK)    ███████████████░░░░░ 75%
 ```
 
-**Frontend Development**
+**Data Engineering & Viz**
 ```
-TypeScript    ██████████████░░░░░░ 70%
-React         ██████████████░░░░░░ 70%
-HTML/CSS      ████████████████░░░░ 80%
-JavaScript    ███████████████░░░░░ 75%
+Python        ██████████████████░░ 90%
+Pandas/NumPy  ████████████████░░░░ 80%
+PostgreSQL    ████████████████░░░░ 80%
+EDA / Viz     ███████████████░░░░░ 75%
 ```
 
 </td>
 <td width="50%">
 
-**ERP & Business Logic**
+**AI Validation Metrics**
 ```
-Odoo 17       ███████████████░░░░░ 75%
-XML-RPC       ██████████████░░░░░░ 70%
-Business      ████████████████░░░░ 80%
-Logic         
+Model Class   Accuracy, Precision,
+              Recall, F1 Score
+Ranking       ROC-AUC
+Modern GenAI  Contextual Relevance,
+              Groundedness,
+              Hallucination Detect
 ```
 
-**DevOps & Tools**
+**Software Engineering**
 ```
+REST APIs     ████████████████░░░░ 80%
 Docker        █████████████░░░░░░░ 65%
 Git/GitHub    ████████████████░░░░ 80%
-CI/CD         ███████████░░░░░░░░░ 55%
 Linux         ██████████████░░░░░░ 70%
 ```
 
@@ -201,7 +206,7 @@ Linux         ██████████████░░░░░░ 70%
 
 <div align="center">
 
-**🎯 Seeking HRIS/ERP Internship Opportunities**
+**🎯 Seeking AI Engineer & Data Analyst Opportunities**
 
 <br/>
 
@@ -276,56 +281,56 @@ _The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
 
 <div align="center">
 
-### ⭐ Latest HRIS/ERP Projects (Pinned)
+### ⭐ Featured AI & Data Projects (Pinned)
 
 <table>
 <tr>
 <td width="33%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=mini-hris&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Mini HRIS"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=neuro-focus-ai&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Neuro Focus AI"/>
 
-**🏢 Full-stack Employee Management**
-- Flask REST API (15+ endpoints)
-- PostgreSQL (6 tables)
-- Automated payroll + overtime
-- 85% test coverage
-- Docker ready
+**🧠 ML-Powered Cognitive Engine**
+- Neural network architectures
+- Optimization & Loss functions
+- Contextual relevance metrics
+- Real-time data processing
+- TensorFlow & PyTorch
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 </td>
 <td width="33%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=custom-hr-module&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Custom HR Module"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=akashic-record&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Akashic Record"/>
 
-**🎯 Extended Odoo HR Features**
-- Custom employee models
-- Certification tracking
-- Performance reviews
-- Skills management
-- Custom views (form/tree/kanban)
+**📚 Intelligent NLP System**
+- Natural Language Processing
+- Contextual Groundedness
+- Text mining & Validation
+- Data manipulation (Pandas)
+- F1, Recall & Precision
 
-![Odoo](https://img.shields.io/badge/-Odoo-8F419A?style=flat-square&logo=odoo&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![NLTK](https://img.shields.io/badge/-NLTK-316192?style=flat-square&logo=python&logoColor=white)
 
 </td>
 <td width="33%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=lead-integration&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Lead Integration"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=mini-hris&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Automated Data Pipeline"/>
 
-**🔗 Webhook to Odoo CRM**
-- Form to CRM automation
-- Input validation
-- Rate limiting + auth
-- XML-RPC integration
-- Error handling
+**📈 Predictive HR Analytics**
+- PostgreSQL data warehousing
+- Visualizations (Seaborn)
+- Predictive classification
+- Model Accuracy metrics
+- ROC-AUC evaluation
 
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Odoo](https://img.shields.io/badge/-Odoo-8F419A?style=flat-square&logo=odoo&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
 </td>
 </tr>
@@ -340,61 +345,51 @@ _The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
 
 <br>
 
-#### 🏢 HRIS/ERP & Business Systems
+#### 🤖 AI & Machine Learning
 
-**1. 🏢 [Mini HRIS System](https://github.com/benben000000/mini-hris)** ⭐
-> Full-stack HRIS System with Flask REST API, PostgreSQL database, automated payroll calculation, attendance tracking, and Docker deployment. Production-ready with 85% test coverage using pytest.
+**1. 🧠 [Neuro Focus AI](https://github.com/benben000000/neuro-focus-ai)** ⭐
+> AI-powered studying application featuring intelligent note summarization, focus tracking, and productivity enhancement using deep learning frameworks. Evaluates models using F1, Accuracy, and Recall metrics.
 > 
-> **Tech:** `Python` `Flask` `PostgreSQL` `SQLAlchemy` `Docker` `pytest`  
-> **Last Updated:** Recently
-
-**2. 🎯 [Custom Odoo HR Module](https://github.com/benben000000/custom-hr-module)** ⭐
-> Advanced Odoo module extending HR functionality with employee skill tracking, certification management, performance review system, and custom views. Enterprise-ready with full security implementation.
-> 
-> **Tech:** `Python` `Odoo 17` `PostgreSQL` `XML` `ORM`  
-> **Last Updated:** Recently
-
-**3. 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)** ⭐
-> Webhook API for seamless Odoo CRM integration. Captures lead data from website forms with input validation, rate limiting, API key authentication, and XML-RPC integration.
-> 
-> **Tech:** `Python` `Flask` `Odoo XML-RPC` `Redis` `Docker`  
-> **Last Updated:** Recently
-
----
-
-#### 🚀 Enterprise Infrastructure & SaaS
-
-**4. 🏗️ [Operations Command Center SaaS](https://github.com/benben000000/monorepo-turborepo)**
-> High-performance monorepo architecture for enterprise operations management platform. Real-time monitoring, analytics, and command center functionalities using Turborepo.
-> 
-> **Tech:** `TypeScript` `Turborepo` `Monorepo` `React` `Next.js`  
-> **Last Updated:** 4 days ago
-
----
-
-#### 🤖 AI & Productivity Tools
-
-**5. 🧠 [Neuro Focus AI](https://github.com/benben000000/neuro-focus-ai)**
-> AI-powered studying application for students featuring intelligent note summarization, focus tracking, and productivity enhancement using machine learning.
-> 
-> **Tech:** `TypeScript` `React` `AI/ML` `Neural Networks`  
+> **Tech:** `Python` `TensorFlow` `PyTorch` `Scikit-learn`  
 > **Last Updated:** December 2025
 
-**6. 📚 [Akashic Record](https://github.com/benben000000/akashic-record)**
-> Intelligent knowledge management system for organizing documentation, research papers, and technical learnings. Advanced search and categorization features.
+**2. 📚 [Akashic Record](https://github.com/benben000000/akashic-record)** ⭐
+> Intelligent knowledge management system. Utilizes NLP tools (NLTK) to analyze documents, extract topics, and cross-reference information ensuring high contextual relevance and groundedness.
 > 
-> **Tech:** `Hack` `PHP` `Documentation` `Knowledge Base`  
+> **Tech:** `Python` `NLTK` `NLP` `Knowledge Engine`  
 > **Last Updated:** 1 week ago
 
 ---
 
-#### 🌐 Web Technologies & Platforms
+#### 📊 Data Analytics & Engineering
 
-**7. 📱 [WTI - Webcast Technologies Platform](https://github.com/benben000000/WTI)**
-> Foundation for an all-in-one broadcast management system. Webcast Technologies Implementation showcasing modern web development practices and streaming infrastructure.
+**3. 🏭 [Computer Vision Part Processor](#)**
+> Custom CV pipeline utilizing OpenCV to read, process, and classify images of automotive parts, achieving high precision in OCR transcription to dataframes.
 > 
-> **Tech:** `Python` `Web Technologies` `Streaming` `Broadcasting`  
-> **Last Updated:** 3 weeks ago
+> **Tech:** `Python` `OpenCV` `Pandas` `NumPy`  
+> **Last Updated:** 2 weeks ago
+
+**4. 📈 [HR Analytics Pipeline (Mini HRIS)](https://github.com/benben000000/mini-hris)**
+> Originally an HRIS system, extended with advanced data pipelines, generating analytical insights visualized via Matplotlib and Seaborn to predict employee attrition.
+> 
+> **Tech:** `Python` `Pandas` `PostgreSQL` `Seaborn`  
+> **Last Updated:** Recently
+
+---
+
+#### 🌐 Software Engineering & Backend
+
+**5. 🔗 [Lead Integration API](https://github.com/benben000000/lead-integration)**
+> Specialized backend microservice that streams real-time data from webhooks, sanitizing inputs before feeding into central data warehouses.
+> 
+> **Tech:** `Python` `Flask` `Docker` `ETL`  
+> **Last Updated:** Recently
+
+**6. 🏗️ [Operations Command Center](https://github.com/benben000000/monorepo-turborepo)**
+> Data visualization dashboard for enterprise systems giving real-time telemetry of operations.
+> 
+> **Tech:** `TypeScript` `React` `Data Viz`  
+> **Last Updated:** 4 days ago
 
 ---
 
@@ -419,24 +414,24 @@ _The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
 </td>
 </tr>
 <tr>
-<td>🏢 HRIS/ERP Systems</td>
+<td>🤖 AI & Machine Learning</td>
 <td align="center">3</td>
-<td>Python, Odoo, PostgreSQL, Flask</td>
+<td>PyTorch, TensorFlow, Scikit-learn</td>
 </tr>
 <tr>
-<td>🚀 Enterprise SaaS</td>
-<td align="center">1</td>
-<td>TypeScript, Turborepo, React</td>
-</tr>
-<tr>
-<td>🤖 AI & Productivity</td>
+<td>📊 Data Analytics & Pipeline</td>
 <td align="center">2</td>
-<td>TypeScript, Hack, AI/ML</td>
+<td>Pandas, NumPy, Matplotlib, OpenCV</td>
 </tr>
 <tr>
-<td>🌐 Web Platforms</td>
-<td align="center">1</td>
-<td>Python, Web Technologies</td>
+<td>🌐 API & Backends</td>
+<td align="center">3</td>
+<td>Python, PostgreSQL, Flask</td>
+</tr>
+<tr>
+<td>💼 Other Domains</td>
+<td align="center">2</td>
+<td>TypeScript, React</td>
 </tr>
 <tr>
 <td><b>Total</b></td>
@@ -462,18 +457,18 @@ _The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': { 'darkMode': true }}}%%
 graph LR
-    A[🐍 Python Fundamentals] -->|Mastered| B[🗄️ PostgreSQL & SQL]
-    B -->|Completed| C[⚡ Flask APIs]
-    C -->|In Progress| D[🎯 Odoo Development]
-    D -->|Next| E[🐳 Docker & DevOps]
-    E -->|Goal| F[🏢 Production Deployment]
-    F -->|Target| G[💼 AWB Internship! 🎯]
+    A[🐍 Python/SQL Data Foundations] -->|Mastered| B[📊 Pandas & Data Analytics]
+    B -->|Completed| C[🧠 Scikit-Learn & ML]
+    C -->|In Progress| D[🔥 PyTorch & TensorFlow]
+    D -->|Next| E[👁️ OpenCV & NLP Systems]
+    E -->|Goal| F[📈 Model Validation & Metrics]
+    F -->|Target| G[💼 AI Engineer/Data Analyst Roles 🎯]
     
     style A fill:#3776AB,stroke:#fff,stroke-width:2px,color:#fff
-    style B fill:#316192,stroke:#fff,stroke-width:2px,color:#fff
-    style C fill:#000000,stroke:#fff,stroke-width:2px,color:#fff
-    style D fill:#8F419A,stroke:#fff,stroke-width:2px,color:#fff
-    style E fill:#2496ED,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#150458,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#F7931E,stroke:#fff,stroke-width:2px,color:#000
+    style D fill:#EE4C2C,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#000000,stroke:#fff,stroke-width:2px,color:#fff
     style F fill:#2E9EF7,stroke:#fff,stroke-width:2px,color:#fff
     style G fill:#00FF00,stroke:#fff,stroke-width:3px,color:#000
 ```
@@ -485,13 +480,13 @@ graph LR
 
 | Week | Module | Status | Key Achievements |
 |:----:|:-------|:------:|:----------------|
-| 1-2 | 🐍 Python Fundamentals & OOP | ✅ | Classes, Functions, File I/O |
-| 3-4 | 🗄️ PostgreSQL & Database Design | ✅ | Normalization, Joins, Constraints |
-| 5-6 | 🌐 JavaScript & Docker Basics | ✅ | DOM, Containers, Deployment |
-| 7-8 | 🎯 Odoo Framework | 🔄 | Custom Modules, XML, RPC |
-| 9-10 | ⚡ API Development & Integration | 📅 | REST, Webhooks, Auth |
-| 11 | 🧪 Testing & Documentation | 📅 | pytest, Coverage, Docs |
-| 12 | 🚀 Portfolio & Deployment | 📅 | GitHub, Docker, CI/CD |
+| 1-3 | 🐍 Python Data Stack | ✅ | Pandas, NumPy, Matplotlib, Seaborn |
+| 4-5 | 🗄️ Database & SQL | ✅ | Queries, Data Wrangling, Postgres |
+| 6-7 | 🧠 Traditional ML | ✅ | Scikit-learn, Regression, Classification |
+| 8-9 | 🔥 Deep Learning | 🔄 | TensorFlow, PyTorch, Keras |
+| 10 | 👁️ Computer Vision & NLP | 📅 | OpenCV, NLTK, Prompt Engineering |
+| 11 | 📈 Model Validation | 📅 | ROC-AUC, F1, Groundedness Detection |
+| 12 | 🚀 Portfolio & Deployment | 📅 | Dockerizing AI Models |
 
 **Legend:** ✅ Completed | 🔄 In Progress | 📅 Planned
 
@@ -565,8 +560,8 @@ graph LR
 <br/>
 
 📍 **Location:** Balanga City, Bataan, Philippines  
-💼 **Available for:** HRIS/ERP Internship  
-📚 **Currently Learning:** Advanced Odoo Development & API Integration  
+💼 **Role Focus:** AI Engineer, Data Analyst, Machine Learning  
+📚 **Currently Learning:** Advanced Deep Learning, Hallucination Detection & Context Validation  
 ⚡ **Fun Fact:** I've built 5 production-ready systems while learning!
 
 ---
