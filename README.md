@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated Header with Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Benedict%20M.%20Garcia&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20|%20Data%20Analyst%20|%20Machine%20Learning&descAlignY=51&descAlign=50"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Benedict%20M.%20Garcia&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=CyberSecurity%20GRC%20Analyst%20|%20Risk%20Management%20|%20Threat%20Defense&descAlignY=51&descAlign=50"/>
 
 <!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Python+%7C+TensorFlow+%7C+PyTorch;Building+Intelligent+AI+Systems;Data+Pipelines+%26+Deep+Learning;Computer+Vision+%26+NLP;Scikit-learn+%7C+Pandas+%7C+NumPy;AI+Validation+%26+Diagnostics" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Governance+%7C+Risk+%7C+Compliance;Enterprise+CyberSecurity+RuleBook;Risk+Management+%26+Auditing;PCI-DSS+%7C+DORA+%7C+NIST;Threat+Modeling+%26+Controls;Compliance+Reporting" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -51,10 +51,9 @@
 <td width="50%" valign="top">
 
 **📍 Location:** Balanga City, Bataan, Philippines  
-**🎓 Education:** Associates in Computer Technology  
-**💼 Focus:** AI Engineering, Machine Learning & Data Analytics  
-**🌱 Learning:** AI Validation (Groundedness, Hallucination Detection)  
-**🎯 Goal:** Secure AI Engineer & Data Analyst Roles
+**💼 Focus:** CyberSecurity, GRC, Risk Assessment, Compliance  
+**🌱 Learning:** Advanced Threat Defense, Multi-Framework Compliance  
+**🎯 Goal:** Secure CyberSecurity GRC Analyst Roles
 
 <br/>
 
@@ -62,30 +61,18 @@
 
 <br/>
 
-```typescript
-const benedict = {
-    code: ["Python", "SQL", "TypeScript", "JavaScript", "R"],
-    expertise: {
-        ai_engineering: ["TensorFlow", "PyTorch", "Keras"],
-        traditional_ml: ["Scikit-learn", "Predictive Modeling"],
-        data_science: ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
-        computer_vision: ["OpenCV", "Image Processing"],
-        nlp: ["NLTK", "Text Processing", "LLM Integration"]
-    },
-    metricsFocus: [
-        "Classification: Accuracy, Precision, Recall, F1",
-        "Ranking/Probabilistic: ROC-AUC",
-        "Generative AI: Contextual Relevance, Groundedness"
-    
-    },
-    currentProjects: [
-        "Neuro Focus AI - ML-Powered Cognitive Engine",
-        "Akashic Record - Intelligent Knowledge System",
-        "Automated Data Pipeline & Analytics Dashboard",
-        "Computer Vision Catalog Processor"
-    ],
-    challenge: "Building production-ready AI models and actionable data insights"
-};
+```yaml
+---
+id: benedict_m_garcia
+role: Principal CyberSecurity Engineer & GRC Analyst
+focus: Risk Quantification, Compliance Architecture, Threat Defense
+frameworks: [CIS v8, ISO 27001, NIST 800-53, PCI DSS v4.0.1, DORA]
+current_ops: 
+  - Enterprise CyberSecurity RuleBook Synthesis
+  - Automated Threat Detection Pipelines
+  - Board-Level Risk Reporting (FAIR Methodology)
+objective: Align technical security controls with strategic governance mandates
+---
 ```
 
 </td>
@@ -105,27 +92,26 @@ const benedict = {
 
 <div align="center">
 
-### Machine Learning & Computer Vision
+### Governance, Risk & Compliance (GRC)
 <p>
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,scikitlearn,opencv&theme=dark" />
+  <img src="https://img.shields.io/badge/NIST%20800--53-005C99?style=for-the-badge&logo=nist&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ISO%2027001-0B5394?style=for-the-badge&logo=iso&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PCI--DSS%20v4.0.1-2C3E50?style=for-the-badge&logo=pci-dss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CIS%20v8-185494?style=for-the-badge&logo=cis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DORA%20RTS-4A148C?style=for-the-badge&logo=europeanunion&logoColor=white"/>
 </p>
 
-### Data Science & Analytics
+### Threat Defense & Security Operations
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,r,matlab&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=linux,kali,docker,python,bash&theme=dark" />
 </p>
 
-### NLP & Libraries
+### Auditing & Analysis Tools
 <p>
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NLTK-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
-
-### Development & DevOps
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode&theme=dark" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elasticsearch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nmap-2B5A82?style=for-the-badge&logo=map&logoColor=white"/>
 </p>
 
 
@@ -142,41 +128,39 @@ const benedict = {
 <tr>
 <td width="50%">
 
-**AI & Deep Learning**
+**GRC & Frameworks**
 ```
-PyTorch/TF    ████████████████░░░░ 85%
-Computer Vis  ████████████████░░░░ 80%
-Scikit-learn  ███████████████░░░░░ 75%
-NLP (NLTK)    ███████████████░░░░░ 75%
+NIST 800-53   ████████████████░░░░ 85%
+ISO 27001     ████████████████░░░░ 80%
+PCI-DSS v4    ███████████████░░░░░ 75%
+DORA RTS      ███████████████░░░░░ 75%
 ```
 
-**Data Engineering & Viz**
+**Risk Assessment**
 ```
-Python        ██████████████████░░ 90%
-Pandas/NumPy  ████████████████░░░░ 80%
-PostgreSQL    ████████████████░░░░ 80%
-EDA / Viz     ███████████████░░░░░ 75%
+FAIR Method   ██████████████████░░ 90%
+NIST 800-30   ████████████████░░░░ 80%
+Threat Model  ████████████████░░░░ 80%
+Audit Prep    ███████████████░░░░░ 75%
 ```
 
 </td>
 <td width="50%">
 
-**AI Validation Metrics**
+**Threat Defense & SecOps**
 ```
-Model Class   Accuracy, Precision,
-              Recall, F1 Score
-Ranking       ROC-AUC
-Modern GenAI  Contextual Relevance,
-              Groundedness,
-              Hallucination Detect
+Detection Eng YARA, Sigma, Python
+Forensics     Memory, Log Correlation
+Incident Resp Contain, Preserve, Escalate
+Vulnerability CVSS 4.0, MITRE ATT&CK
 ```
 
-**Software Engineering**
+**Security Architecture**
 ```
-REST APIs     ████████████████░░░░ 80%
-Docker        █████████████░░░░░░░ 65%
-Git/GitHub    ████████████████░░░░ 80%
-Linux         ██████████████░░░░░░ 70%
+Zero Trust    ████████████████░░░░ 80%
+Identity/MFA  █████████████░░░░░░░ 65%
+Hardening     ████████████████░░░░ 80%
+Linux/AD Sec  ██████████████░░░░░░ 70%
 ```
 
 </td>
@@ -206,7 +190,7 @@ Linux         ██████████████░░░░░░ 70%
 
 <div align="center">
 
-**🎯 Seeking AI Engineer & Data Analyst Opportunities**
+**🎯 Seeking CyberSecurity GRC Opportunities**
 
 <br/>
 
@@ -281,56 +265,56 @@ _The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
 
 <div align="center">
 
-### ⭐ Featured AI & Data Projects (Pinned)
+### ⭐ Featured CyberSecurity & GRC Projects (Pinned)
 
 <table>
 <tr>
 <td width="33%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=neuro-focus-ai&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Neuro Focus AI"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=CyberSecurityRuleBook&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Neuro Focus AI"/>
 
-**🧠 ML-Powered Cognitive Engine**
-- Neural network architectures
-- Optimization & Loss functions
-- Contextual relevance metrics
-- Real-time data processing
-- TensorFlow & PyTorch
+**🛡️ Enterprise GRC Platform**
+- High-fidelity knowledge synthesis
+- Regulatory mandate mapping
+- Automated threat detection pipelines
+- Board-ready risk reporting
+- NIST, ISO, PCI-DSS, DORA
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-
-</td>
-<td width="33%" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=akashic-record&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Akashic Record"/>
-
-**📚 Intelligent NLP System**
-- Natural Language Processing
-- Contextual Groundedness
-- Text mining & Validation
-- Data manipulation (Pandas)
-- F1, Recall & Precision
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![NLTK](https://img.shields.io/badge/-NLTK-316192?style=flat-square&logo=python&logoColor=white)
+![CyberSecurity](https://img.shields.io/badge/-CyberSecurity-3776AB?style=flat-square&logo=security&logoColor=white)
+![GRC](https://img.shields.io/badge/-GRC-FF6F00?style=flat-square&logo=policy&logoColor=white)
+![Risk](https://img.shields.io/badge/-Risk_Management-EE4C2C?style=flat-square&logo=risk&logoColor=white)
 
 </td>
 <td width="33%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=mini-hris&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Automated Data Pipeline"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=CyberSecurityRuleBook&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Akashic Record"/>
 
-**📈 Predictive HR Analytics**
-- PostgreSQL data warehousing
-- Visualizations (Seaborn)
-- Predictive classification
-- Model Accuracy metrics
-- ROC-AUC evaluation
+**🔍 Threat Intelligence Engine**
+- Adversarial self-review
+- Mitigation strategies
+- Post-mortem forensics
+- Vulnerability lifecycle
+- MITRE ATT&CK & CVSS 4.0
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Intel](https://img.shields.io/badge/-Threat_Intel-3776AB?style=flat-square&logo=target&logoColor=white)
+![Forensics](https://img.shields.io/badge/-Forensics-F7931E?style=flat-square&logo=search&logoColor=white)
+![Mitigation](https://img.shields.io/badge/-Mitigation-316192?style=flat-square&logo=shield&logoColor=white)
+
+</td>
+<td width="33%" align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=benben000000&repo=CyberSecurityRuleBook&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9" alt="Automated Data Pipeline"/>
+
+**📊 Zero-Trust Architecture Lab**
+- Zero-trust identity (MFA)
+- CIS-grade Linux hardening
+- Active Directory Tiering
+- Defensive architectural posture
+- Quantitative risk metrics
+
+![ZeroTrust](https://img.shields.io/badge/-Zero_Trust-3776AB?style=flat-square&logo=lock&logoColor=white)
+![Hardening](https://img.shields.io/badge/-Hardening-150458?style=flat-square&logo=server&logoColor=white)
+![Identity](https://img.shields.io/badge/-Identity-316192?style=flat-square&logo=users&logoColor=white)
 
 </td>
 </tr>
@@ -347,13 +331,13 @@ _The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
 
 #### 🤖 AI & Machine Learning
 
-**1. 🧠 [Neuro Focus AI](https://github.com/benben000000/neuro-focus-ai)** ⭐
+**1. 🧠 [Neuro Focus AI](https://github.com/benben000000/CyberSecurityRuleBook)** ⭐
 > AI-powered studying application featuring intelligent note summarization, focus tracking, and productivity enhancement using deep learning frameworks. Evaluates models using F1, Accuracy, and Recall metrics.
 > 
 > **Tech:** `Python` `TensorFlow` `PyTorch` `Scikit-learn`  
 > **Last Updated:** December 2025
 
-**2. 📚 [Akashic Record](https://github.com/benben000000/akashic-record)** ⭐
+**2. 📚 [Akashic Record](https://github.com/benben000000/CyberSecurityRuleBook)** ⭐
 > Intelligent knowledge management system. Utilizes NLP tools (NLTK) to analyze documents, extract topics, and cross-reference information ensuring high contextual relevance and groundedness.
 > 
 > **Tech:** `Python` `NLTK` `NLP` `Knowledge Engine`  
@@ -369,7 +353,7 @@ _The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
 > **Tech:** `Python` `OpenCV` `Pandas` `NumPy`  
 > **Last Updated:** 2 weeks ago
 
-**4. 📈 [HR Analytics Pipeline (Mini HRIS)](https://github.com/benben000000/mini-hris)**
+**4. 📈 [HR Analytics Pipeline (Mini HRIS)](https://github.com/benben000000/CyberSecurityRuleBook)**
 > Originally an HRIS system, extended with advanced data pipelines, generating analytical insights visualized via Matplotlib and Seaborn to predict employee attrition.
 > 
 > **Tech:** `Python` `Pandas` `PostgreSQL` `Seaborn`  
@@ -457,12 +441,12 @@ _The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': { 'darkMode': true }}}%%
 graph LR
-    A[🐍 Python/SQL Data Foundations] -->|Mastered| B[📊 Pandas & Data Analytics]
-    B -->|Completed| C[🧠 Scikit-Learn & ML]
-    C -->|In Progress| D[🔥 PyTorch & TensorFlow]
-    D -->|Next| E[👁️ OpenCV & NLP Systems]
-    E -->|Goal| F[📈 Model Validation & Metrics]
-    F -->|Target| G[💼 AI Engineer/Data Analyst Roles 🎯]
+    A[🔐 Security Foundations] -->|Mastered| B[📜 GRC Frameworks]
+    B -->|Completed| C[🛡️ Threat Defense]
+    C -->|In Progress| D[📊 Risk Quantification (FAIR)]
+    D -->|Next| E[🔍 Advanced Forensics]
+    E -->|Goal| F[🏛️ Board-Level Reporting]
+    F -->|Target| G[💼 Principal CyberSecurity GRC Roles 🎯]
     
     style A fill:#3776AB,stroke:#fff,stroke-width:2px,color:#fff
     style B fill:#150458,stroke:#fff,stroke-width:2px,color:#fff
@@ -549,7 +533,7 @@ graph LR
 
 <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="200" />
 
-**🚀 Open to HRIS/ERP Internship Opportunities!**
+**🚀 Open to CyberSecurity GRC Opportunities!**
 
 <br/>
 
@@ -560,8 +544,8 @@ graph LR
 <br/>
 
 📍 **Location:** Balanga City, Bataan, Philippines  
-💼 **Role Focus:** AI Engineer, Data Analyst, Machine Learning  
-📚 **Currently Learning:** Advanced Deep Learning, Hallucination Detection & Context Validation  
+💼 **Role Focus:** CyberSecurity GRC Analyst, Risk Management, Compliance  
+📚 **Currently Learning:** Advanced Enterprise Risk Frameworks, Threat Defense Architecture  
 ⚡ **Fun Fact:** I've built 5 production-ready systems while learning!
 
 ---
