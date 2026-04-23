@@ -441,12 +441,12 @@ _The snake eats all my GitHub contributions! Refresh to watch it again!_ 🎯
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': { 'darkMode': true }}}%%
 graph LR
-    A[🔐 Security Foundations] -->|Mastered| B[📜 GRC Frameworks]
-    B -->|Completed| C[🛡️ Threat Defense]
-    C -->|In Progress| D[📊 Risk Quantification (FAIR)]
-    D -->|Next| E[🔍 Advanced Forensics]
-    E -->|Goal| F[🏛️ Board-Level Reporting]
-    F -->|Target| G[💼 Principal CyberSecurity GRC Roles 🎯]
+    A["🔐 Security Foundations"] -->|Mastered| B["📜 GRC Frameworks"]
+    B -->|Completed| C["🛡️ Threat Defense"]
+    C -->|In Progress| D["📊 Risk Quantification (FAIR)"]
+    D -->|Next| E["🔍 Advanced Forensics"]
+    E -->|Goal| F["🏛️ Board-Level Reporting"]
+    F -->|Target| G["💼 Principal CyberSecurity GRC Roles 🎯"]
     
     style A fill:#3776AB,stroke:#fff,stroke-width:2px,color:#fff
     style B fill:#150458,stroke:#fff,stroke-width:2px,color:#fff
