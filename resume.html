@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benedict M. Garcia - Resume</title>
     <style>
+        /* Harvard Style / ATS Maximized Resume */
         @page {
             size: A4;
-            margin: 1cm 1.5cm;
+            margin: 0.5in 0.5in 0.5in 0.5in;
         }
 
         * {
@@ -18,51 +19,104 @@
         }
 
         body {
-            font-family: 'Calibri', Arial, sans-serif;
-            line-height: 1.4;
-            color: #333;
-            background: #f5f5f5;
-            font-size: 10.5px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 11pt;
+            line-height: 1.15;
+            color: #000;
+            background: #fff;
+            -webkit-print-color-adjust: exact;
         }
 
         .page {
-            width: 21cm;
-            min-height: 29.7cm;
-            padding: 1cm 1.5cm;
-            margin: 20px auto;
+            width: 8.27in; /* A4 width */
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0.5in;
             background: white;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
+            /* Balanced border for visual review, removed on print */
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         /* Header */
         .header {
             text-align: center;
-            padding-bottom: 12px;
-            border-bottom: 3px solid #2c3e50;
-            margin-bottom: 14px;
+            margin-bottom: 12pt;
         }
 
         .header h1 {
-            font-size: 26px;
-            color: #2c3e50;
-            margin-bottom: 6px;
-            letter-spacing: 1px;
+            font-size: 24pt;
+            font-weight: normal; /* Harvard style often uses non-bold headers or subtle bold */
+            text-transform: uppercase;
+            margin-bottom: 4pt;
+            letter-spacing: 1pt;
         }
 
         .contact-info {
-            font-size: 10px;
-            color: #555;
-            line-height: 1.5;
+            font-size: 11pt;
+            margin-bottom: 8pt;
         }
 
         .contact-info a {
-            color: #2c3e50;
+            color: #000;
             text-decoration: none;
         }
 
-        /* Action Buttons */
+        /* Sections */
+        .section {
+            margin-bottom: 12pt;
+        }
+
+        .section-title {
+            font-size: 11pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2pt;
+            margin-bottom: 6pt;
+        }
+
+        /* Items */
+        .item {
+            margin-bottom: 8pt;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-weight: bold;
+        }
+
+        .item-sub {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-style: italic;
+            margin-bottom: 4pt;
+        }
+        
+        .item-title-bold {
+            font-weight: bold;
+        }
+
+        /* Lists for ATS */
+        ul {
+            list-style-type: disc;
+            margin-left: 15pt;
+        }
+
+        li {
+            margin-bottom: 3pt;
+            text-align: justify;
+        }
+
+        /* Skills Section */
+        .skills-list {
+            line-height: 1.4;
+        }
+
+        /* Buttons (Hidden on Print) */
         .btn-container {
             position: fixed;
             top: 20px;
@@ -73,189 +127,32 @@
         }
 
         .btn {
-            padding: 10px 18px;
-            border: none;
-            border-radius: 5px;
-            font-size: 13px;
-            font-weight: bold;
+            padding: 8px 16px;
+            border: 1px solid #000;
+            background: #fff;
+            color: #000;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
             cursor: pointer;
             text-decoration: none;
-            transition: all 0.3s;
-        }
-
-        .btn-back {
-            background: #2c3e50;
-            color: white;
-        }
-
-        .btn-download {
-            background: #27ae60;
-            color: white;
         }
 
         .btn:hover {
-            transform: translateY(-2px);
+            background: #f0f0f0;
         }
 
-        /* Sections */
-        .section {
-            margin-bottom: 14px;
-        }
-
-        .section-title {
-            font-size: 12px;
-            font-weight: bold;
-            color: #2c3e50;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 3px;
-            margin-bottom: 8px;
-        }
-
-        /* Two Column Layout */
-        .two-col {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 18px;
-            flex-grow: 1;
-        }
-
-        /* Objective */
-        .objective {
-            font-size: 10.5px;
-            line-height: 1.5;
-            text-align: justify;
-        }
-
-        /* Skills Grid */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 6px 12px;
-            font-size: 10px;
-            line-height: 1.4;
-        }
-
-        .skill-item strong {
-            color: #2c3e50;
-        }
-
-        /* Education */
-        .education-item {
-            font-size: 10.5px;
-            line-height: 1.4;
-        }
-
-        .education-item h3 {
-            font-size: 11px;
-            color: #2c3e50;
-            margin-bottom: 4px;
-        }
-
-        .meta {
-            color: #666;
-            font-size: 9.5px;
-            font-style: italic;
-            margin-bottom: 3px;
-        }
-
-        /* Projects */
-        .project {
-            margin-bottom: 12px;
-        }
-
-        .project h3 {
-            font-size: 11px;
-            color: #2c3e50;
-            margin-bottom: 3px;
-        }
-
-        .project ul {
-            margin-left: 16px;
-            font-size: 10px;
-            line-height: 1.45;
-        }
-
-        .project li {
-            margin-bottom: 3px;
-        }
-
-        /* Certifications */
-        .cert-list {
-            font-size: 10px;
-            line-height: 1.5;
-        }
-
-        .cert-list p {
-            margin-bottom: 6px;
-        }
-
-        .cert-list strong {
-            color: #2c3e50;
-        }
-
-        /* Achievements */
-        .achievements ul {
-            list-style: none;
-            margin-left: 0;
-            font-size: 10px;
-            line-height: 1.5;
-        }
-
-        .achievements li {
-            margin-bottom: 5px;
-            padding-left: 14px;
-            position: relative;
-        }
-
-        .achievements li::before {
-            content: '✓';
-            position: absolute;
-            left: 0;
-            color: #27ae60;
-            font-weight: bold;
-            font-size: 10px;
-        }
-
-        /* Additional Skills */
-        .additional-skills {
-            font-size: 10px;
-            line-height: 1.5;
-        }
-
-        .additional-skills p {
-            margin-bottom: 4px;
-        }
-
-        .additional-skills strong {
-            color: #2c3e50;
-        }
-
-        /* Footer */
-        .footer {
-            margin-top: auto;
-            padding-top: 10px;
-            border-top: 1px solid #ddd;
-            text-align: center;
-            font-size: 9px;
-            color: #888;
-        }
-
-        /* Print Styles */
+        /* Print Overrides */
         @media print {
             body {
-                background: white;
+                background: none;
             }
-
             .page {
-                width: 100%;
-                min-height: auto;
-                padding: 0;
-                margin: 0;
+                border: none;
                 box-shadow: none;
+                margin: 0;
+                padding: 0;
+                width: 100%;
             }
-
             .btn-container {
                 display: none;
             }
@@ -264,141 +161,129 @@
 </head>
 
 <body>
-    <!-- Action Buttons -->
     <div class="btn-container">
-        <a href="https://github.com/benben000000" class="btn btn-back">← Back</a>
-        <button class="btn btn-download" onclick="window.print()">📥 Download PDF</button>
+        <button class="btn" onclick="window.print()">Download PDF</button>
     </div>
 
-    <!-- SINGLE PAGE -->
     <div class="page">
-        <!-- Header -->
+        <!-- HEADER -->
         <div class="header">
-            <h1>BENEDICT M. GARCIA</h1>
+            <h1>Benedict M. Garcia</h1>
             <div class="contact-info">
-                📧 job.benedictgarcia@outlook.com | 📱 09918090338 | 📍 Balanga City, Bataan, Philippines<br>
-                💼 <a href="https://linkedin.com/in/benedict-garcia-tech">linkedin.com/in/benedict-garcia-tech</a> |
-                💻 <a href="https://github.com/benben000000">github.com/benben000000</a>
+                Balanga City, Bataan, Philippines | 09918090338 | job.benedictgarcia@outlook.com<br>
+                linkedin.com/in/benedict-garcia-tech | github.com/benben000000
             </div>
         </div>
 
-        <!-- Objective -->
+        <!-- PROFESSIONAL SUMMARY -->
         <div class="section">
-            <h2 class="section-title">Professional Objective</h2>
-            <p class="objective">
-                Dual-Principal CyberSecurity Engineer & GRC Analyst, bridging the gap between technical threat defense and executive risk management. Adept at architecting secure environments, translating technical risks into board-ready metrics (FAIR methodology), and ensuring rigorous compliance with regulatory mandates (PCI DSS, DORA, NIST 800-53, CIS v8, ISO 27001). Driven by adversarial internal review to deliver loophole-free, operationalized security solutions.
+            <h2 class="section-title">Professional Summary</h2>
+            <p style="text-align: justify;">
+                Dual-Principal CyberSecurity Engineer &amp; GRC Analyst bridging technical threat defense with executive risk management. Adept at architecting secure environments, translating technical risks into board-ready metrics using FAIR methodology, and ensuring rigorous compliance with regulatory mandates including PCI DSS, DORA, NIST 800-53, CIS v8, and ISO 27001. Driven by adversarial internal review to deliver operationalized, resilient security solutions.
             </p>
         </div>
 
-        <!-- Two Column Layout -->
-        <div class="two-col">
-            <!-- LEFT COLUMN -->
-            <div>
-                <!-- Technical Skills -->
-                <div class="section">
-                    <h2 class="section-title">Technical Skills</h2>
-                    <div class="skills-grid">
-                        <div><strong>Governance Frameworks:</strong> NIST 800-53, ISO 27001, CIS v8</div>
-                        <div><strong>Regulatory Standards:</strong> PCI DSS v4.0.1, DORA RTS</div>
-                        <div><strong>Risk Management:</strong> FAIR Methodology, NIST 800-30</div>
-                        <div><strong>Threat Defense:</strong> MITRE ATT&CK, Digital Forensics, Detection Eng.</div>
-                        <div><strong>Security Metrics:</strong> CVSS 4.0, IoC fidelity, TTR/TTD, Residual Risk</div>
-                        <div><strong>Tools & Automation:</strong> YARA, Sigma, Python, Nmap, SIEM</div>
-                    </div>
-                </div>
-
-                <!-- Certifications -->
-                <div class="section">
-                    <h2 class="section-title">Certifications & Training</h2>
-                    <div class="cert-list">
-                        <p><strong>Enterprise Risk Management (FAIR/NIST 800-30)</strong> | Self-Study | Feb 2026<br>
-                            <span style="font-size: 9.5px;">Synthesized advanced methodologies for quantitative and qualitative risk assessments.</span>
-                        </p>
-
-                        <p><strong>Compliance Architecture (PCI DSS, DORA)</strong> | Self-Study | Mar 2026<br>
-                            <span style="font-size: 9.5px;">Mastered control mappings between technical safeguards and critical regulatory mandates.</span>
-                        </p>
-
-                        <p><strong>Advanced Threat Defense & Digital Forensics</strong> | Self-Study | Apr 2026<br>
-                            <span style="font-size: 9.5px;">Focused on MITRE ATT&CK analysis, incident response triage, and adversarial self-review.</span>
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Additional Skills -->
-                <div class="section">
-                    <h2 class="section-title">Additional Skills</h2>
-                    <div class="additional-skills">
-                        <p><strong>Version Control:</strong> Git, GitHub, Branching Strategies, Pull Requests</p>
-                        <p><strong>Collaboration Tools:</strong> Slack, Microsoft Teams, JIRA, Agile Methodologies</p>
-                        <p><strong>Languages:</strong> English (Fluent), Filipino (Native)</p>
-                        <p><strong>Soft Skills:</strong> Team Collaboration, Self-Directed Learning, Problem Solving,
-                            Time Management</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- RIGHT COLUMN -->
-            <div>
-                <!-- Projects -->
-                <div class="section">
-                    <h2 class="section-title">Portfolio Projects</h2>
-
-                    <div class="project">
-                        <h3>CyberSecurity RuleBook - Governance Platform</h3>
-                        <p class="meta">NIST 800-53, ISO 27001, CIS v8 | Enterprise Security Synthesizer</p>
-                        <ul>
-                            <li>Architected a comprehensive, cross-linked compliance engine mapping technical findings directly to <strong>regulatory obligations</strong>.</li>
-                            <li>Implemented the "Internal Adversarial Review Protocol" to rigorously stress-test threat models and defensive playbooks.</li>
-                            <li>Developed robust risk quantification templates (FAIR/NIST 800-30) to present technical vulnerabilities as actionable, board-ready metrics.</li>
-                        </ul>
-                    </div>
-
-                    <div class="project">
-                        <h3>Colonial Pipeline Incident Simulation</h3>
-                        <p class="meta">MITRE ATT&CK, Digital Forensics, Detection Engineering</p>
-                        <ul>
-                            <li>Simulated an end-to-end multi-stage ransomware attack, synthesizing high-fidelity attack logs for SOC operations pipeline triage.</li>
-                            <li>Formulated a tiered Incident Response playbook governing containment, evidence preservation, and strategic risk escalation.</li>
-                            <li>Extracted IoCs and deployed automated detection-as-code snippets (YARA/Sigma) for proactive threat hunting.</li>
-                        </ul>
-                    </div>
-
-                    <div class="project">
-                        <h3>Zero-Trust Architecture Hardening Lab</h3>
-                        <p class="meta">Zero Trust, Active Directory, MFA, CIS Hardening</p>
-                        <ul>
-                            <li>Designed standardized architectural hardening guides for Active Directory Tiered Administration and CIS-grade Linux Servers.</li>
-                            <li>Formulated access policies ensuring compliance with PCI DSS and DORA strict authentication and authorization mandates.</li>
-                            <li>Validated the operational readiness of the infrastructure via internal adversarial challenges, ensuring systemic resilience against lateral movement.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Achievements -->
-                <div class="section achievements">
-                    <h2 class="section-title">Key Achievements</h2>
-                    <ul>
-                        <li>Completed intensive self-study program in comprehensive GRC frameworks and CyberSecurity engineering.
-                        </li>
-                        <li>Formulated robust security playbooks and automated threat detection pipelines.</li>
-                        <li>Ensured rigorous mapping of technical controls to strategic compliance mandates.
-                        </li>
-                        <li>Quantified complex risks using industry-standard methodologies to produce actionable board-level intelligence.
-                        </li>
-                        <li>Published authoritative security governance documentation and compliance matrices.</li>
-                        <li>Active contributor to open-source Python projects and developer communities.</li>
-                    </ul>
-                </div>
+        <!-- CORE COMPETENCIES (Skills) -->
+        <div class="section">
+            <h2 class="section-title">Core Competencies &amp; Technical Skills</h2>
+            <div class="skills-list">
+                <strong>Governance Frameworks &amp; Standards:</strong> NIST 800-53, ISO 27001, CIS v8, PCI DSS v4.0.1, DORA RTS<br>
+                <strong>Risk Management:</strong> FAIR Methodology, NIST 800-30 Quantitative &amp; Qualitative Risk Assessments<br>
+                <strong>Threat Defense:</strong> MITRE ATT&amp;CK, Digital Forensics, Detection Engineering, Adversarial Simulation<br>
+                <strong>Security Metrics &amp; Automation:</strong> CVSS 4.0, IoC fidelity, YARA, Sigma, Python, Nmap, SIEM Analysis
             </div>
         </div>
 
-        <!-- Footer -->
-        <div class="footer">
-            <p><strong>Portfolio:</strong> github.com/benben000000 | <strong>Status:</strong> Ready for immediate start
-                | <strong>References:</strong> Available upon request</p>
+        <!-- PROFESSIONAL EXPERIENCE & PROJECTS -->
+        <div class="section">
+            <h2 class="section-title">Professional Projects &amp; Experience</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>CyberSecurity RuleBook - Governance Platform</span>
+                    <span>Balanga City, PH</span>
+                </div>
+                <div class="item-sub">
+                    <span>Enterprise Security Synthesizer | NIST 800-53, ISO 27001, CIS v8</span>
+                    <span>Mar 2026 – Present</span>
+                </div>
+                <ul>
+                    <li>Architected a comprehensive, cross-linked compliance engine mapping complex technical findings directly to regulatory obligations for rapid audit response.</li>
+                    <li>Implemented an "Internal Adversarial Review Protocol" to rigorously stress-test threat models, uncovering systemic risks prior to deployment.</li>
+                    <li>Developed quantitative risk templates utilizing FAIR and NIST 800-30 methodologies to present vulnerabilities as actionable, board-ready financial metrics.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Colonial Pipeline Incident Simulation</span>
+                    <span>Balanga City, PH</span>
+                </div>
+                <div class="item-sub">
+                    <span>Detection Engineer | MITRE ATT&amp;CK, Digital Forensics</span>
+                    <span>Apr 2026</span>
+                </div>
+                <ul>
+                    <li>Simulated an end-to-end multi-stage ransomware attack, synthesizing high-fidelity attack logs to validate SOC operations pipeline triage protocols.</li>
+                    <li>Formulated a tiered Incident Response playbook governing immediate containment, evidence preservation, and strategic regulatory escalation.</li>
+                    <li>Extracted high-fidelity Indicators of Compromise (IoCs) and deployed automated detection-as-code snippets (YARA/Sigma) for proactive threat hunting.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Zero-Trust Architecture Hardening Lab</span>
+                    <span>Balanga City, PH</span>
+                </div>
+                <div class="item-sub">
+                    <span>Security Architect | Active Directory, MFA, CIS Hardening</span>
+                    <span>Feb 2026 – Mar 2026</span>
+                </div>
+                <ul>
+                    <li>Designed standardized architectural hardening guides for Active Directory Tiered Administration and CIS-grade Linux Servers to mitigate lateral movement.</li>
+                    <li>Formulated access policies ensuring stringent compliance with PCI DSS and DORA authentication and authorization mandates.</li>
+                    <li>Validated infrastructure operational readiness via internal adversarial challenges, ensuring systemic resilience against advanced persistent threats.</li>
+                </ul>
+            </div>
         </div>
+
+        <!-- CERTIFICATIONS & TRAINING -->
+        <div class="section">
+            <h2 class="section-title">Certifications &amp; Advanced Training</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span>Advanced Threat Defense &amp; Digital Forensics</span>
+                    <span>Apr 2026</span>
+                </div>
+                <div style="font-style: italic; margin-bottom: 2pt;">Self-Study Program</div>
+                <ul>
+                    <li>Focused on MITRE ATT&amp;CK analysis, incident response triage, and rigorous adversarial self-review methodologies.</li>
+                </ul>
+            </div>
+            
+            <div class="item">
+                <div class="item-header">
+                    <span>Compliance Architecture (PCI DSS, DORA)</span>
+                    <span>Mar 2026</span>
+                </div>
+                <div style="font-style: italic; margin-bottom: 2pt;">Self-Study Program</div>
+                <ul>
+                    <li>Mastered control mappings between technical safeguards and critical international regulatory mandates.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Enterprise Risk Management (FAIR/NIST 800-30)</span>
+                    <span>Feb 2026</span>
+                </div>
+                <div style="font-style: italic; margin-bottom: 2pt;">Self-Study Program</div>
+                <ul>
+                    <li>Synthesized advanced methodologies for quantitative and qualitative enterprise risk assessments.</li>
+                </ul>
+            </div>
+        </div>
+
     </div>
 </body>
-
 </html>
