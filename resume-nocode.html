@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benedict M. Garcia - Versatile Software Engineer & No-Code Architect</title>
+    <style>
+        /* Modern ATS-Optimized Clean Style */
+        @page {
+            size: A4;
+            margin: 0.5in;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: 10pt;
+            line-height: 1.35;
+            color: #1a1a1a;
+            background: #f3f4f6;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .page {
+            width: 8.27in;
+            min-height: 11.69in;
+            margin: 0.5in auto;
+            padding: 0.5in 0.6in;
+            background: #ffffff;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 14pt;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 10pt;
+        }
+
+        .header h1 {
+            font-size: 24pt;
+            font-weight: 700;
+            color: #1e3a8a;
+            text-transform: uppercase;
+            margin-bottom: 4pt;
+            letter-spacing: 1pt;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+            color: #4b5563;
+        }
+
+        .contact-info a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 12pt;
+        }
+
+        .section-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #1e3a8a;
+            text-transform: uppercase;
+            border-bottom: 1px solid #cbd5e1;
+            padding-bottom: 3pt;
+            margin-bottom: 6pt;
+            letter-spacing: 0.5pt;
+        }
+
+        /* Items */
+        .item {
+            margin-bottom: 8pt;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-weight: 700;
+            font-size: 11pt;
+            color: #0f172a;
+        }
+
+        .item-sub {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-style: italic;
+            font-weight: 500;
+            color: #475569;
+            margin-bottom: 4pt;
+        }
+
+        /* Lists */
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+        }
+
+        li {
+            margin-bottom: 3pt;
+            text-align: justify;
+            position: relative;
+            padding-left: 12pt;
+        }
+
+        li::before {
+            content: "•";
+            color: #2563eb;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            font-size: 12pt;
+            line-height: 1;
+            top: -1pt;
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4pt;
+            line-height: 1.4;
+        }
+
+        .skills-category strong {
+            color: #1e3a8a;
+            display: inline-block;
+            width: 170px;
+        }
+
+        /* Buttons (Hidden on Print) */
+        .btn-container {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background: #2563eb;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(37, 99, 235, 0.3);
+        }
+
+        @media print {
+            body {
+                background: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .page {
+                border: none;
+                box-shadow: none;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                min-height: auto;
+            }
+
+            .btn-container {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="btn-container">
+        <button class="btn" onclick="window.print()">Save as PDF / Print</button>
+    </div>
+
+    <div class="page">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>Benedict M. Garcia</h1>
+            <div class="contact-info">
+                Software Engineer | No-Code Architect | Systems Automator<br>
+                Balanga City, Bataan, Philippines | 09918090338 | <a href="mailto:job.benedictgarcia@outlook.com">job.benedictgarcia@outlook.com</a><br>
+                <a href="https://linkedin.com/in/benzymes" target="_blank">linkedin.com/in/benzymes</a> | <a href="https://github.com/benben000000" target="_blank">github.com/benben000000</a>
+            </div>
+        </div>
+
+        <!-- PROFESSIONAL SUMMARY -->
+        <div class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <p style="text-align: justify;">
+                Solutions-driven <strong>Software Engineer and No-Code Architect</strong> specializing in rapidly designing, building, and deploying secure web applications, client portals, and internal workflows. Leveraging a strong full-stack coding foundation (Python, React, JavaScript, HTML/CSS) paired with deep expertise in leading no-code platforms (Softr.io, Bubble.io, Airtable, Webflow), I bridge the gap between rapid application deployment and robust technical scalability. Proven ability to architect complex relational databases, automate ecosystems via Zapier/Make, integrate RESTful APIs, and implement enterprise-grade security (User Authentication, RBAC) to deliver high-impact, user-friendly solutions without traditional scalability bottlenecks.
+            </p>
+        </div>
+
+        <!-- CORE COMPETENCIES (Skills) -->
+        <div class="section">
+            <h2 class="section-title">Technical Skills &amp; Platforms</h2>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <strong>No-Code & Rapid Dev:</strong> Softr.io, Airtable, Bubble.io, Webflow, Adalo, Glide
+                </div>
+                <div class="skills-category">
+                    <strong>Traditional Coding:</strong> Python, TypeScript, React, HTML5, CSS3, JavaScript, Flask, SQL, Git
+                </div>
+                <div class="skills-category">
+                    <strong>Integration & Data:</strong> Zapier, Make (Integromat), RESTful APIs, Webhooks, PostgreSQL, JSON
+                </div>
+                <div class="skills-category">
+                    <strong>Architecture & Security:</strong> UI/UX Design Principles, Relational Databases, User Authentication, RBAC, Enterprise Security
+                </div>
+            </div>
+        </div>
+
+        <!-- PROFESSIONAL EXPERIENCE & PROJECTS -->
+        <div class="section">
+            <h2 class="section-title">Application Engineering &amp; Automation Experience</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Enterprise ERP & Client Portal Architecture (Softr & Airtable)</span>
+                    <span>Remote / Freelance</span>
+                </div>
+                <div class="item-sub">
+                    <span>Lead Application Architect</span>
+                    <span>Aug 2025 – Present</span>
+                </div>
+                <ul>
+                    <li>Designed and developed a comprehensive B2B supply chain portal using <strong>Softr.io</strong>, enabling enterprise vendors to submit purchase orders and manage invoicing through intuitive UI/UX responsive interfaces.</li>
+                    <li>Architected the core backend relational database entirely in <strong>Airtable</strong>, linking thousands of dynamic records across inventory management, automated notifications, and order statuses.</li>
+                    <li>Implemented strict user authentication and Role-Based Access Control (RBAC), ensuring individual client data isolation and enterprise-grade security compliance.</li>
+                    <li>Automated PDF invoice generation and dynamic payment routing (via Stripe) using <strong>Make (Integromat)</strong>, eliminating manual accounting overhead and cross-functional bottlenecks.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Lead Integration API & Operations Command Center</span>
+                    <span>Open Source / Project</span>
+                </div>
+                <div class="item-sub">
+                    <span>Full-Stack Web Developer & Systems Integrator</span>
+                    <span>Mar 2025 – Jul 2025</span>
+                </div>
+                <ul>
+                    <li>Developed responsive, high-converting marketing landing pages utilizing <strong>Webflow</strong> and <strong>React/TypeScript</strong>, strictly adhering to modern UI design principles and accessibility standards.</li>
+                    <li>Engineered custom Python/Flask RESTful API microservices to stream real-time data from webhooks, sanitizing inputs before feeding them into central Airtable and PostgreSQL databases.</li>
+                    <li>Orchestrated multi-step onboarding sequences via <strong>Zapier</strong>, integrating Slack, Mailchimp, and internal tools to automatically notify cross-functional teams of high-value lead captures.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>Mobile Field Services Application (Glide & Bubble.io)</span>
+                    <span>Remote / Project</span>
+                </div>
+                <div class="item-sub">
+                    <span>Mobile App Builder & UI/UX Designer</span>
+                    <span>Nov 2024 – Feb 2025</span>
+                </div>
+                <ul>
+                    <li>Designed a mobile-first field services application using <strong>Glide</strong> and <strong>Bubble.io</strong>, deployed to remote technicians for daily operational dispatching and logistics tracking.</li>
+                    <li>Integrated external third-party APIs to pull real-time geolocation, weather, and traffic data directly into the application interface for dynamic route optimization.</li>
+                    <li>Continuously improved application performance and user experience by collaborating with stakeholders, ensuring the final product aligned with brand guidelines and operational needs.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span>CyberSecurity RuleBook & Governance Automations</span>
+                    <span>Open Source / Project</span>
+                </div>
+                <div class="item-sub">
+                    <span>Security Integration Specialist</span>
+                    <span>Jan 2025 – May 2025</span>
+                </div>
+                <ul>
+                    <li>Built an automated knowledge base for enterprise risk management, utilizing intelligent data pipelines to categorize compliance data.</li>
+                    <li>Applied deep understanding of User Roles, Data Permissions, and Zero-Trust methodologies, ensuring that internal tools are fundamentally secure against unauthorized access.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- EDUCATION & CERTIFICATIONS -->
+        <div class="section">
+            <h2 class="section-title">Education &amp; Professional Development</h2>
+            
+            <div class="item" style="margin-bottom: 4pt;">
+                <div class="item-header">
+                    <span>Bachelor of Science Equivalent in Information Technology & Systems Engineering</span>
+                    <span></span>
+                </div>
+                <div style="font-style: italic; color: #475569; margin-bottom: 2pt;">(Demonstrated practical experience via advanced GitHub Portfolio and Open Source Architecture)</div>
+            </div>
+
+            <div class="item" style="margin-bottom: 4pt;">
+                <div class="item-header">
+                    <span>Full-Stack & No-Code Systems Architecture Training</span>
+                    <span>Sep 2025</span>
+                </div>
+                <ul>
+                    <li>Intensive training in relational database management (Airtable/SQL), rapid web deployment (Softr/Webflow), traditional frontend engineering (HTML/CSS/JS), and workflow automation.</li>
+                </ul>
+            </div>
+            
+            <div class="item">
+                <div class="item-header">
+                    <span>Enterprise Security, CI/CD, & Agile Project Management</span>
+                    <span>Feb 2025</span>
+                </div>
+                <ul>
+                    <li>Advanced competency in secure authentication protocols, Jira/Trello project tracking, and iterative cross-functional collaboration.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

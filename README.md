@@ -10,8 +10,8 @@
 
 <!-- Animated Social Badges -->
 <p align="center">
-  <a href="https://linkedin.com/in/benedict-garcia-tech">
-    <img src="https://img.shields.io/badge/-Benedict%20Garcia-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/benedict-garcia-tech" />
+  <a href="https://linkedin.com/in/benzymes">
+    <img src="https://img.shields.io/badge/-Benedict%20Garcia-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/benzymes" />
   </a>
   <a href="mailto:job.benedictgarcia@outlook.com">
     <img src="https://img.shields.io/badge/-job.benedictgarcia-D14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:job.benedictgarcia@outlook.com"/>
@@ -325,8 +325,8 @@ objective: Deliver high-impact, secure, and automated solutions that drive busin
 <a href="mailto:job.benedictgarcia@outlook.com">
   <img src="https://img.shields.io/badge/Email-job.benedictgarcia@outlook.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-<a href="https://linkedin.com/in/benedict-garcia-tech">
-  <img src="https://img.shields.io/badge/LinkedIn-benedict--garcia--tech-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<a href="https://linkedin.com/in/benzymes">
+  <img src="https://img.shields.io/badge/LinkedIn-benzymes-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
 **📍 Available for:** Immediate start | **💼 Location:** Balanga City, Bataan, Philippines
